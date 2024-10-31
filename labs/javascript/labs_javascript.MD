@@ -5,103 +5,174 @@
 ### Cvičení 1: Otevření Developer Tools a základy práce s konzolí
 
 1. **Otevřete Chrome Developer Tools**:
+V této části se naučíte, jak deklarovat proměnné a používat různé operátory v konzoli webového prohlížeče.
    - Otevřete libovolnou webovou stránku.
    - Stiskněte `F12` nebo použijte kombinaci `Ctrl + Shift + I` (Windows) nebo `Cmd + Option + I` (Mac) pro otevření Developer Tools.
 
 2. **Práce s konzolí**:
    - Přepněte se na záložku **Console**.
-   - Do konzole zadejte následující příkazy:
+   - Do konzole zadejte následující kód. Nepoužívejte kopírování a vložení, ale zadejte jej sami. Stisknutím `Enter` se kód v konzoli spustí, `Shift+Enter` vytvoří nový řádek.
      ```javascript
-     console.log('Hello, world!');
-     let num = 5; num * 2;
-     alert('Welcome to Chrome Developer Tools!');
+     var var1 = 1;
+     var var2 = 2;
+     var1 + var2;
+     ```
+   - Stiskněte šipku nahoru, abyste načetli dříve spuštěný blok kódu. Pomocí šipek nahoru a dolů můžete procházet historii konzole. Upravte kód následovně:
+     ```javascript
+      var var1 = 1;
+      var var2 = 2;
+
+      console.log(var2 - var2);
+      console.log(var1 + var2);
      ```
 
-3. **Úkol pro účastníky**:
-   - Zkuste vytvořit proměnnou, která obsahuje vaše jméno, a vypište ji pomocí `console.log()`.
-   - Vytvořte jednoduchý výpočet, například spočítání plochy obdélníku (délka * šířka), a vypište výsledek.
+     Jak vidíte, metoda `console.log` vypíše zprávu do konzole, což je užitečné pro jednoduché ladění.
+     Poslední příkaz (`console.log`) nevrátil hodnotu, takže se zobrazí undefined, což znamená, že byla vrácena nedefinovaná hodnota.
+   - Vraťte se do konzole a zadejte část názvu proměnných deklarovaných v předchozím kódu (např. `var1`). Měla by se zobrazit automatická nabídka doplnění s názvy proměnných `var1` a `var2`.
+
+### Cvičení 2: Proměnné, datové typy, operátory
+
+1. **Vložte následující kód do konzole** a použijte jej jako návod k deklaraci čtyř nových proměnných (každá jiného typu). Po zadání každého příkazu stiskněte `Enter` a zkontrolujte hodnoty proměnných v konzoli:
+
+    ```javascript
+    var msg = 'Hello';
+    var id = 123;
+    var fun = true;
+    var things = ['car', 'laptop', msg];
+    ```
+
+2. **Přidejte další příkazy s různými operátory** dle následující tabulky. Vyberte alespoň dva příkazy pro každý typ operátoru, dohromady minimálně 8 příkazů.
+
+#### Tabulka 1: Operátory v JavaScriptu
+
+| Typ operátoru | Operátory                  |
+|---------------|----------------------------|
+| Přiřazení     | =, +=, -=, *=, /=, %=      |
+| Aritmetické   | +, -, *, /, %, ++, --      |
+| Porovnávací   | ==, ===, !=, !==, >, <, >=, <= |
+| Logické       | &&, ||, !                  |
+
+3. **Příklad použití operátorů**:
+
+    ```javascript
+    var id2 = 123;
+    var id3 = '123';
+    id2 == id3;      // porovnání hodnoty
+    id2 === id3;     // přísné porovnání typu i hodnoty
+    id2 == id3 && id2 === id3; // logický součin
+    id2 == id3 || id2 === id3; // logický součet
+    let y = id2++;   // id2 se zvýší na 124; y má hodnotu 123
+    y = ++id2;       // id2 se zvýší na 125; y má hodnotu 125
+    ```
 
 ---
 
-### Cvičení 2: Manipulace s DOM a styly
+### Cvičení 3: Podmínky a smyčky
 
-1. **Prozkoumání struktury HTML pomocí záložky Elements**:
-   - Přejděte na záložku **Elements** a najděte libovolný prvek na stránce (např. nadpis nebo odstavec).
-   - Klikněte pravým tlačítkem a zvolte **Edit as HTML** pro úpravu HTML kódu daného prvku.
+1. **Podmínky**  
+Bez podmínek a smyček není programování možné. V JavaScriptu je klíčové umět pracovat se základním příkazem `if` a se smyčkou `for`.
 
-2. **Manipulace se styly pomocí záložky Styles**:
-   - Najděte prvek (např. nadpis) a změňte jeho styl. Například nastavte:
-     - Barva textu: `color: red;`
-     - Velikost písma: `font-size: 24px;`
+2. **Vytvořte podmínku `if` pomocí existujících proměnných `msg` a `fun`**. 
 
-3. **Úkol pro účastníky**:
-   - Změňte text jakéhokoli prvku na stránce na svůj vlastní text.
-   - Změňte barvu pozadí stránky nebo určitého prvku.
+    ```javascript
+    if (msg === 'bye') {
+      fun = false;
+    }
+    console.log(fun);
+    ```
 
----
+    - Vyzkoušejte přepsat `msg` na `'bye'` a otestujte chování kódu:
 
-### Cvičení 3: Práce s JavaScriptem v konzoli
+    ```javascript
+    msg = 'bye';
+    fun = true;
+    if (msg === 'bye') {
+      fun = false;
+    }
+    console.log(fun);
+    ```
 
-1. **Manipulace s prvky stránky pomocí JavaScriptu**:
-   - Otevřete konzoli a vložte následující příkaz:
-     ```javascript
-     document.body.style.backgroundColor = 'lightblue';
-     ```
-   - Změňte obsah libovolného nadpisu na stránce:
-     ```javascript
-     document.querySelector('h1').textContent = 'Ahoj, svět!';
-     ```
+3. **Vyzkoušejte si také příkaz `if-else` pro procvičení**.
 
-2. **Úkol pro účastníky**:
-   - Najděte libovolný obrázek na stránce a změňte jeho zdroj (atribut `src`) na jiný obrázek (můžete použít libovolný URL).
-   - Přidejte nové tlačítko do stránky:
-     ```javascript
-     let button = document.createElement('button');
-     button.textContent = 'Klikni na mě';
-     document.body.appendChild(button);
-     ```
+4. **Přidání smyčky `for`**  
+   Přidejte smyčku, která projde hodnoty pole `things` a zobrazí je v konzoli:
 
----
+    ```javascript
+    for (var x = 0; x < things.length; x += 1) {
+      console.log(things[x]);
+    }
+    ```
 
-### Cvičení 4: Debugging JavaScriptu
+   ```javascript
+    for (let i = 0; i < 5; i++) {
+    console.log("Číslo: " + i); // Vypíše čísla 0 až 4
+    }
+    ```
 
-1. **Přidání JavaScriptu pro debuggování**:
-   - Otevřete webovou stránku a přepněte se do záložky **Sources**.
-   - Do konzole vložte následující kód, který obsahuje chybu:
-     ```javascript
-     function calculateSum(a, b) {
-         let result = a + c;  // Záměrná chyba (c není definováno)
-         return result;
-     }
-     calculateSum(5, 10);
-     ```
+### Cvičení 4: Objekty a funkce
 
-2. **Použití breakpointu**:
-   - Vložte breakpoint kliknutím na číslo řádku ve **Sources**.
-   - Sledujte, jak prohlížeč zastaví kód na tomto řádku.
-   - Prohlédněte si hodnoty proměnných a zjistěte, kde se nachází chyba.
+### Definice objektu a funkce
 
-3. **Úkol pro účastníky**:
-   - Najděte chybu v kódu a opravte ji tak, aby funkce správně spočítala součet dvou čísel.
-   - Vyzkoušejte si použití breakpointu ve vlastním JavaScriptovém kódu.
+1. **Vytvořte objekt `person` a funkci `sayHello`**:
 
----
+    ```javascript
+    var person = {
+      first: '',
+      last: ''
+    };
 
-### Cvičení 5: Sledování síťové komunikace (Network)
+    function sayHello(p) {
+      console.log('Hi ' + p.first + ' ' + p.last);
+    }
+    ```
 
-1. **Prozkoumání síťové aktivity**:
-   - Přejděte na záložku **Network** a obnovte stránku (stiskněte `F5`).
-   - Sledujte, které soubory se načítají a jak dlouho trvá jejich načtení.
+### Nastavení hodnot a volání funkce
 
-2. **Sledování AJAX požadavků**:
-   - Přejděte na libovolnou stránku, která využívá dynamické načítání obsahu (např. sociální sítě).
-   - V Network záložce sledujte AJAX požadavky a zjistěte, co vrací server v odpovědi.
+2. **Nastavte hodnoty atributů `first` a `last` a zavolejte funkci `sayHello`**:
 
-3. **Úkol pro účastníky**:
-   - Najděte požadavek, který načítá data ve formátu JSON, a prohlédněte si jeho obsah.
-   - Zkuste zkopírovat URL některého požadavku a otevřít ho přímo v prohlížeči.
+    ```javascript
+    person.first = 'John';
+    person.last = 'Smith';
+    sayHello(person);
+    ```
 
 ---
 
-### Závěr
-Tento lab pokrývá základní funkce Chrome Developer Tools, které jsou pro práci s JavaScriptem velmi užitečné. Účastníci se naučí základní manipulaci s DOM a styly, debugování chyb v JavaScriptu a sledování síťové komunikace. Díky tomu by měli získat solidní přehled o tom, jak pracovat s JavaScriptem přímo v prohlížeči, a lépe pochopí, jak odstraňovat chyby a optimalizovat webové aplikace v Oracle APEX.
+### Rozšíření – práce s polem objektů
+
+3. **Definujte pole objektů a napište funkci `sayHello2`, která vypíše pozdrav pro každou osobu v poli**:
+
+    ```javascript
+    function sayHello2(persons) {
+        for (let i = 0; i < persons.length; i++) {
+            console.log('Hi ' + persons[i].first + ' ' + persons[i].last);
+        }
+    }
+
+    let persons = [
+      {first: 'Mike', last: 'Tyson'},
+      {first: 'Tomas', last: 'Edison'}
+    ];
+
+    sayHello2(persons);
+    ```
+
+---
+
+### Rozšíření – konstruktor objektu `Person`
+
+4. **Definujte konstruktor pro objekty `Person` a použijte jej**:
+
+    ```javascript
+    function Person(first, last) {
+        this.first = first;
+        this.last = last;
+    }
+
+    persons = [
+      new Person('Mike', 'Tyson'),
+      new Person('Tomas', 'Edison')
+    ];
+
+    sayHello2(persons);
+    ```    
