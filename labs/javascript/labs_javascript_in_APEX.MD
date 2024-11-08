@@ -38,12 +38,14 @@ Po spuštění příkazu by se hodnota P3_ENAME měla změnit na KRAL.
 1. **Vytvoření nové stránky typu Form**:
    - Přejděte do aplikace **Sample Dynamic Actions**.
    - Vytvořte novou stránku typu **Form** a vyberte tabulku **eba_demo_da_emp** jako zdroj dat.
+   
    ![alt text](images/cviceni2_1.png)
    ![alt text](images/cviceni2_2.png)
    ![alt text](images/cviceni2_3.png)
 
 2. **Úprava Page Item `Pxx_JOB`**:
    - Na nové stránce najděte položku `Pxx_JOB` a změňte její typ z **Text Field** na **Select List**.
+
    ![alt text](images/cviceni2_8.png)
    - Jako zdroj položky `Pxx_JOB` zvolte následující SQL dotaz:
 
@@ -52,7 +54,8 @@ Po spuštění příkazu by se hodnota P3_ENAME měla změnit na KRAL.
      from eba_demo_da_emp
      order by 1;
      ```
-      ![alt text](images/cviceni2_9.png)
+
+   ![alt text](images/cviceni2_9.png)
 3. **Definování nové dynamické akce pro `Pxx_JOB`**:
    - Na položce `Pxx_JOB` vytvořte novou dynamickou akci a pojmenujte ji **Commission for Salesman Only**.
 
