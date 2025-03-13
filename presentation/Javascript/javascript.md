@@ -3,13 +3,14 @@ marp: true
 theme: 
 title:
 ---
-
-
 # Základy JavaScriptu
+
 - JavaScript je skriptovací jazyk běžící v prohlížeči.
 - Používá se k vytváření dynamických webových stránek.
 - Oracle APEX podporuje integraci JavaScriptu pro rozšíření funkcionalit aplikací.
 ---
+
+
 
 # Základní syntaxe JavaScriptu
 ## Proměnné

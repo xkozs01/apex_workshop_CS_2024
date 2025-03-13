@@ -23,8 +23,8 @@ title:
 
 - Seznámení s architekturou a možnostmi APEXu
 - Procvičit základní administrativní úkony
-- Ukázat/vyzškoušet možnosti přizpůsobení aplikací pomocí JavaScriptu,  dynamických akcí a CSS
-- Ukázat zajimavé příklady využítí - ukázka ATM
+- Ukázat/vyzkoušet možnosti přizpůsobení aplikací pomocí JavaScriptu,  dynamických akcí a CSS
+- Ukázat zajímavé příklady využítí - ukázka ATM
 
 ---
 
@@ -32,10 +32,6 @@ title:
 # Architektura Oracle APEX
 
 ---
-
-
-
-
 
 # 1. Úvod do Oracle APEX
 
@@ -53,7 +49,7 @@ title:
 ![alt text](image.png)
   1. **Webový prohlížeč:** Uživatel zadá URL (např. `http://<hostname>/ords/f?p=<appid>:<pageid>`).
   2. **ORDS:** Překládá požadavky (HTTP requesty) na databázová volání.
-  3. **Oracle Database:** APEX engine zpacovává požadavky, generuje a posílá zpět webové stránky
+  3. **Oracle Database:** APEX engine zpracovává požadavky, generuje a posílá zpět webové stránky
 ---
 
 # 3. Metadata
@@ -63,8 +59,6 @@ title:
 * Správa stavu relace (session state) v databázi
 * PL/SQL manipuluje daty přímo v databázi
 * Výsledky odesílány do prohlížeče jedním API voláním a vraceny jednou odpovědi
-
-
 
 ---
 # 4. Databázová schémata v APEX
@@ -76,19 +70,18 @@ title:
 - **APEX views** - pohledy do metadat, viz APEX_DICTIONARY
 - **Aplikační schéma:**
   - Ukládá data a logiku aplikace, přístup pouze přes APEX engine. (např. GUIM schéma v ATM)
-
 ---
-# 5. APEX views - 1
+# 5.1 APEX views
 * APEX_DICTIONARY
 * Nebo APEX App builder/Workspace Utilities/APEX Views
 ![alt text](image-1.png)
 --- 
-# 5. APEX views - 2
+# 5.2 APEX views
 ![w:700 APEX views in Appliction Builder](image-3.png)
 ---
 
 --- 
-# 5. APEX views - 3
+# 5.3 APEX views 
 ```sql
 select distinct apex_view_name from APEX_DICTIONARY order by 1;
 ``` 
@@ -110,7 +103,7 @@ DEMO                      100        1 ADMIN    08-JUN-16
 DEMO                      100        2 ADMIN    08-JUN-16
 ``` 
 ---
-# 5. APEX views - 4
+# 5.4 APEX views
 Vyber všechny sdílené LOV, které nemají „ORDER BY“.
 ```sql
 select application_id
@@ -128,7 +121,7 @@ APPLICATION_ID LIST_OF_VALUES_NAME       LIST_OF_VALUES_QUERY
 ```
 ---
 
-# 5. APEX views - 5
+# 5.5 APEX views
 Všechny aplikace a jejích autentikační schémata 
 ```sql
 select workspace
@@ -146,9 +139,7 @@ DEMO          112  File Upload Demo             Application Express Authenticati
 ```
 ---
 
----
-
-# 5. APEX views - 6
+# 5.6 APEX views
 Všechny workspacy, aplikační schémata a datum vytvoření
 ```sql
 select workspace_name
@@ -167,70 +158,70 @@ FM2                             FM        2016/01/24 14:08:47
 FM4                             FM4       2016/01/28 12:06:43
 ```
 ---
-# 6. Databázové relace APEXu
+# 6. Spuštění aplikace APEXu
 
 ![alt text](image-4.png)
 
----
-# **Funkce `f`:**
+**Funkce `f`:**
   - Databázová funkce v URL (např. `/f?p=<appid>:<pageid>`).
   - Čte metadata v APEX schématu APEX_xxx (např. v APEX_230100) a vola procedury pro dynamické generování stránek.
    - Příklad: `f?p=100:1` znamená aplikace 100, stránka 1.
 
 ---
-# Základy JavaScriptu
-
-- JavaScript je skriptovací jazyk běžící v prohlížeči.
-- Používá se k vytváření dynamických webových stránek.
-- Oracle APEX podporuje integraci JavaScriptu pro rozšíření funkcionalit aplikací.
----
-
-
-# Základní syntaxe JavaScriptu
-## Proměnné
-```javascript
-var a = 10;   // globální proměnná
-let b = 20;   // bloková proměnná
-const c = 30; // konstantní proměnná
+# 7. Connection pool
+* Vytváří se při spuštění ORDS (parametr jdbc.MaxLimit v default.xml)
+* v$session - seznam aktivních relací (sessions)
 ```
+select sid, module, client_info, client_identifier, status
+from   v$session
+where username = 'APEX_PUBLIC_USER'
+and  status = 'ACTIVE';
 
----
-# Základní syntaxe JavaScriptu
-## Funkce
-```javascript
-function sayHello() {
-    console.log("Hello World!"); // Vypíše do konzole
-}
-
-sayHello(); // Volání funkce
+SID MODULE                         CLIENT_INFO            CLIENT_IDENTIFIER
+--- ------------------------------ ---------------------- --------------------
+53  APEX_050000/APEX:APP 4500:1204 3201226568081376:ADMIN ADMIN:27135994032614
 ```
+--- 
+# 8. APEX workspaces
+<!--
+APEX applications are developed in an area called a workspace. Each workspace has an administrator user and can have developer users and runtime users.
+-->
+
+![APEX workspaces](image-6.png)
 
 ---
-# Základní syntaxe JavaScriptu
-## Funkce s parametry
-```javascript
-function add(x, y) { return x + y; } 
-let result = add(5, 7); // Vrací 12
-```
+# 9. Uživatele APEXu
+* APEX admin - workspace internal - vytváří workspacy, správuje celé prostředí
+* Workspace admin - vytváří uživatele, spravuje workspace
+* Worspace developer - vývoj aplikací
+* Runtime uživatel - nemá práva na vývoj
 
 ---
-# Základní syntaxe JavaScriptu
-## Podmínky
-```javascript
-let age = 18;
- 
-if (age >= 18) {
-    console.log("Jsi plnoletý.");
-} else {
-    console.log("Jsi neplnoletý.");
-}
-```
+# 10. Nasazení APEXu
+* apex.oracle.com
+* cloud.oracle.com
+* notebook
+* Instalace na server 
+* Instalace na server s dedikovaným webserverm
+* Instalace na server s ORDS v Docker kontejneru
 
 ---
-# Základní syntaxe JavaScriptu
-## Cykly
-```javascript
-for (let i = 0; i < 5; i++) {
-    console.log("Číslo: " + i); // Vypíše čísla 0 až 4
-}
-```
+# 10.1 Nasazení APEXu - notebook
+![alt text](image-9.png)
+
+---
+
+# 10.2 Nasazení APEXu - server
+![alt text](image-8.png)
+
+---
+
+# 10.3 Nasazení APEXu - server + webserver
+![alt text](image-10.png)
+
+---
+
+# 10.4 Nasazení APEXu - server + Docker
+![alt text](image-11.png)
+
+---
