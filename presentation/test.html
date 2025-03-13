@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script><script src="https://unpkg.com/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://unpkg.com/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"","children":[{"content":"Oracle APEX Workshop pro &#x10c;S","children":[{"content":"&#xda;vod","children":[{"content":"<strong>O mn&#x11b;:</strong> Sergej Kozlovskij","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"<strong>V&#xfd;voj v Oracle od roku 2000 (s p&#x159;est&#xe1;vkami :smiley: )</strong>","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"<strong>V&#xfd;voj v APEXu od 2019 - v&#xfd;voj aplikace ATM (spr&#xe1;va automatick&#xfd;ch test&#x16f;) pro Tesco</strong>","children":[],"payload":{"tag":"li","lines":"13,15"}}],"payload":{"tag":"h2","lines":"9,10"}},{"content":"C&#xed;l workshopu","children":[{"content":"Sezn&#xe1;men&#xed; s architekturou a mo&#x17e;nostmi APEXu","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Procvi&#x10d;it z&#xe1;kladn&#xed; administrativn&#xed; &#xfa;kony","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Uk&#xe1;zat/vyz&#x161;kou&#x161;et mo&#x17e;nosti p&#x159;izp&#x16f;soben&#xed; aplikac&#xed; pomoc&#xed; JavaScriptu,  dynamick&#xfd;ch akc&#xed; a CSS","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Uk&#xe1;zat zajimav&#xe9; p&#x159;&#xed;klady vyu&#x17e;&#xed;t&#xed; - uk&#xe1;zka ATM","children":[],"payload":{"tag":"li","lines":"22,25"}}],"payload":{"tag":"h2","lines":"17,18"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"Z&#xe1;klady JavaScriptu","children":[{"content":"JavaScript je skriptovac&#xed; jazyk b&#x11b;&#x17e;&#xed;c&#xed; v prohl&#xed;&#x17e;e&#x10d;i.","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"Pou&#x17e;&#xed;v&#xe1; se k vytv&#xe1;&#x159;en&#xed; dynamick&#xfd;ch webov&#xfd;ch str&#xe1;nek.","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Oracle APEX podporuje integraci JavaScriptu pro roz&#x161;&#xed;&#x159;en&#xed; funkcionalit aplikac&#xed;.","children":[],"payload":{"tag":"li","lines":"30,31"}}],"payload":{"tag":"h1","lines":"27,28"}},{"content":"Z&#xe1;kladn&#xed; syntaxe JavaScriptu","children":[{"content":"Prom&#x11b;nn&#xe9;","children":[{"content":"<pre data-lines=\"37,42\"><code class=\"language-javascript\"><span class=\"hljs-keyword\">var</span> a = <span class=\"hljs-number\">10</span>;   <span class=\"hljs-comment\">// glob&#xe1;ln&#xed; prom&#x11b;nn&#xe1;</span>\n<span class=\"hljs-keyword\">let</span> b = <span class=\"hljs-number\">20</span>;   <span class=\"hljs-comment\">// blokov&#xe1; prom&#x11b;nn&#xe1;</span>\n<span class=\"hljs-keyword\">const</span> c = <span class=\"hljs-number\">30</span>; <span class=\"hljs-comment\">// konstantn&#xed; prom&#x11b;nn&#xe1;</span>\n</code></pre>","children":[],"payload":{"tag":"pre","lines":"37,42"}}],"payload":{"tag":"h2","lines":"36,37"}}],"payload":{"tag":"h1","lines":"35,36"}},{"content":"Z&#xe1;kladn&#xed; syntaxe JavaScriptu","children":[{"content":"Funkce","children":[{"content":"<pre data-lines=\"46,53\"><code class=\"language-javascript\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">sayHello</span>(<span class=\"hljs-params\"></span>) {\n    <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Hello World!&quot;</span>); <span class=\"hljs-comment\">// Vyp&#xed;&#x161;e do konzole</span>\n}\n\n<span class=\"hljs-title function_\">sayHello</span>(); <span class=\"hljs-comment\">// Vol&#xe1;n&#xed; funkce</span>\n</code></pre>","children":[],"payload":{"tag":"pre","lines":"46,53"}}],"payload":{"tag":"h2","lines":"45,46"}}],"payload":{"tag":"h1","lines":"44,45"}},{"content":"Z&#xe1;kladn&#xed; syntaxe JavaScriptu","children":[{"content":"Funkce s parametry","children":[{"content":"<pre data-lines=\"57,61\"><code class=\"language-javascript\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">add</span>(<span class=\"hljs-params\">x, y</span>) { <span class=\"hljs-keyword\">return</span> x + y; } \n<span class=\"hljs-keyword\">let</span> result = <span class=\"hljs-title function_\">add</span>(<span class=\"hljs-number\">5</span>, <span class=\"hljs-number\">7</span>); <span class=\"hljs-comment\">// Vrac&#xed; 12</span>\n</code></pre>","children":[],"payload":{"tag":"pre","lines":"57,61"}}],"payload":{"tag":"h2","lines":"56,57"}}],"payload":{"tag":"h1","lines":"55,56"}},{"content":"Z&#xe1;kladn&#xed; syntaxe JavaScriptu","children":[{"content":"Podm&#xed;nky","children":[{"content":"<pre data-lines=\"65,74\"><code class=\"language-javascript\"><span class=\"hljs-keyword\">let</span> age = <span class=\"hljs-number\">18</span>;\n \n<span class=\"hljs-keyword\">if</span> (age &gt;= <span class=\"hljs-number\">18</span>) {\n    <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Jsi plnolet&#xfd;.&quot;</span>);\n} <span class=\"hljs-keyword\">else</span> {\n    <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Jsi neplnolet&#xfd;.&quot;</span>);\n}\n</code></pre>","children":[],"payload":{"tag":"pre","lines":"65,74"}}],"payload":{"tag":"h2","lines":"64,65"}}],"payload":{"tag":"h1","lines":"63,64"}},{"content":"Z&#xe1;kladn&#xed; syntaxe JavaScriptu","children":[{"content":"Cykly","children":[{"content":"<pre data-lines=\"78,83\"><code class=\"language-javascript\"><span class=\"hljs-keyword\">for</span> (<span class=\"hljs-keyword\">let</span> i = <span class=\"hljs-number\">0</span>; i &lt; <span class=\"hljs-number\">5</span>; i++) {\n    <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;&#x10c;&#xed;slo: &quot;</span> + i); <span class=\"hljs-comment\">// Vyp&#xed;&#x161;e &#x10d;&#xed;sla 0 a&#x17e; 4</span>\n}\n</code></pre>","children":[],"payload":{"tag":"pre","lines":"78,83"}}],"payload":{"tag":"h2","lines":"77,78"}}],"payload":{"tag":"h1","lines":"76,77"}}]},{})</script>
+</body>
+</html>
