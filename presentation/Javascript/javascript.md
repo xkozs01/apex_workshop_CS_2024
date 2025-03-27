@@ -60,3 +60,8 @@ for (let i = 0; i < 5; i++) {
     console.log("Číslo: " + i); // Vypíše čísla 0 až 4
 }
 ```
+---
+# Lab - Základy JavaScriptu
+[Lab na Github.com](../../labs/javascript/labs_javascript.MD)
+
+```
