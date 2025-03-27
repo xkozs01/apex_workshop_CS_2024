@@ -1,0 +1,258 @@
+---
+# ====== Application: CS_workshop_2024-11 ====================
+id: 242909
+identification: 
+  name: CS_workshop_2024-11
+  alias: CS-WORKSHOP-2024-11
+  version: Release 1.0
+
+row-search: 
+  tokenize: true
+  text-query-function: None
+
+availability: 
+  status: Available with Developer Toolbar
+  build-status: Run and Build Application
+
+error-handling: 
+  default-display-location: Inline with Field and in Notification
+
+report-printing: 
+  type: Use Instance Settings
+
+advanced: 
+  friendly-urls: true
+  allow-feedback: true
+  logging: true
+  debugging: false
+  compatibility-mode: 21.2 to 24.1
+  accessible-read-only-items: true
+  pass-ecid: Y
+
+authentication: 
+  public-user: APEX_PUBLIC_USER
+  authentication-scheme: Oracle APEX Accounts # 57038858837409353399
+
+authorization: 
+  source-for-role-or-group-schemes: Access Control User Role Assignments
+
+session-management: 
+  rejoin-sessions: Disabled
+
+session-state-protection: 
+  enabled: true
+
+security: 
+  deep-linking: Disabled
+  browser-cache: Disabled
+  embed-in-frames: Deny
+  referrer-policy: strict-origin
+  html-escaping-mode: Extended
+
+database-session: 
+  parsing-schema: WKSP_CS2025
+
+globalization: 
+  primary-language: English (en)
+  document-direction: Left-To-Right
+  language-derived-from: Application Primary Language
+  automatic-time-zone: false
+  automatic-csv-encoding: true
+
+application-format-masks: 
+  date: DS
+  timestamp: DS
+  timestamp-time-zone: DS
+
+character-value-comparison: 
+  behavior: Database session NLS setting (default)
+
+logo: 
+  type: Text
+  text: CS_workshop_2024-11
+
+progressive-web-app: 
+  enable: true
+  installable: false
+  display: Standalone
+  screen-orientation: Any
+  ios-status-bar-style: Default
+  enable-push-notifications: false
+
+navigation: 
+  home-url: 
+    url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+    page: 1 # Home
+
+  login-url: 
+    url: 'f?p=&APP_ID.:LOGIN:&APP_SESSION.::&DEBUG.:::'
+    page: LOGIN
+
+navigation-menu: 
+  list-template: Side Navigation Menu
+  template-options: 
+  - '#DEFAULT#'
+  - t-TreeNav--styleA
+  - js-navCollapsed--hidden
+  list-position: Side
+  list: Navigation Menu # 57038859638010353400
+
+navigation-bar: 
+  implementation: List
+  list: Navigation Bar # 57039150657132353607
+  list-template: Navigation Bar
+  template-options: 
+  - '#DEFAULT#'
+
+javascript: 
+  include-jquery-migrate: false
+
+attributes: 
+  theme: Universal Theme # 42
+  global-page: 0
+  enable-end-users-to-choose-theme-style: false
+  add-"built-with-apex"-to-footer: false
+  auto-dismiss-success-messages: false
+
+subscription: 
+  version-number: 15614495107925
+
+substitutions: 
+- # ====== Substitution: APP_NAME ==============================
+  id: 23441417749665624717
+  identification: 
+    name: APP_NAME
+
+  value: 
+    static-value: CS_workshop_2024-11
+
+component-settings: 
+- # ====== Component Setting: NATIVE_BOSS ======================
+  id: 20499347923853519
+  identification: 
+    name: NATIVE_BOSS
+    type: REST Data Source
+
+  subscription: 
+    version-number: 15599294865109
+
+- # ====== Component Setting: NATIVE_OPEN_AI_ASSISTANT =========
+  id: 57038854764876353396
+  identification: 
+    name: NATIVE_OPEN_AI_ASSISTANT
+    type: Dynamic Action
+
+  subscription: 
+    version-number: 15584297832414
+
+- # ====== Component Setting: NATIVE_COLOR_PICKER ==============
+  id: 57038855090326353396
+  identification: 
+    name: NATIVE_COLOR_PICKER
+    type: Item
+
+  subscription: 
+    version-number: 15584297832418
+
+- # ====== Component Setting: NATIVE_DATE_PICKER_APEX ==========
+  id: 57038855395805353397
+  identification: 
+    name: NATIVE_DATE_PICKER_APEX
+    type: Item
+
+  subscription: 
+    version-number: 15584297832418
+
+- # ====== Component Setting: NATIVE_GEOCODED_ADDRESS ==========
+  id: 57038855570448353397
+  identification: 
+    name: NATIVE_GEOCODED_ADDRESS
+    type: Item
+
+  subscription: 
+    version-number: 15584297832420
+
+- # ====== Component Setting: NATIVE_SELECT_MANY ===============
+  id: 57038855866433353397
+  identification: 
+    name: NATIVE_SELECT_MANY
+    type: Item
+
+  subscription: 
+    version-number: 15584297832421
+
+- # ====== Component Setting: NATIVE_SINGLE_CHECKBOX ===========
+  id: 57038856103686353397
+  identification: 
+    name: NATIVE_SINGLE_CHECKBOX
+    type: Item
+
+  subscription: 
+    version-number: 15584297832421
+
+- # ====== Component Setting: NATIVE_STAR_RATING ===============
+  id: 57038856426329353397
+  identification: 
+    name: NATIVE_STAR_RATING
+    type: Item
+
+  subscription: 
+    version-number: 15584297832432
+
+- # ====== Component Setting: NATIVE_YES_NO ====================
+  id: 57038856797683353398
+  identification: 
+    name: NATIVE_YES_NO
+    type: Item
+
+  subscription: 
+    version-number: 15584297832437
+
+- # ====== Component Setting: NATIVE_GEOCODING =================
+  id: 57038857064918353398
+  identification: 
+    name: NATIVE_GEOCODING
+    type: Process
+
+  settings: 
+    attribute-1: RELAX_HOUSE_NUMBER
+
+  subscription: 
+    version-number: 15584297832446
+
+- # ====== Component Setting: NATIVE_DISPLAY_SELECTOR ==========
+  id: 57038857375817353398
+  identification: 
+    name: NATIVE_DISPLAY_SELECTOR
+    type: Region
+
+  subscription: 
+    version-number: 15584297832449
+
+- # ====== Component Setting: NATIVE_IR ========================
+  id: 57038857632677353398
+  identification: 
+    name: NATIVE_IR
+    type: Region
+
+  subscription: 
+    version-number: 15584297832451
+
+- # ====== Component Setting: NATIVE_MAP_REGION ================
+  id: 57038857990720353398
+  identification: 
+    name: NATIVE_MAP_REGION
+    type: Region
+
+  subscription: 
+    version-number: 15584297832463
+
+- # ====== Component Setting: NATIVE_ADFBC =====================
+  id: 57038858260651353399
+  identification: 
+    name: NATIVE_ADFBC
+    type: REST Data Source
+
+  subscription: 
+    version-number: 15584297832471
+

@@ -1,0 +1,81 @@
+---
+- # ====== List of Values: DEPT.DNAME1 =========================
+  id: 23453069153023007867
+  identification: 
+    name: DEPT.DNAME1
+
+  subscription: 
+    version-number: 15614495107395
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: DEPT
+
+  column-mapping: 
+    return: DEPTNO
+    display: DNAME
+    default-sort: DNAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: EMP.ENAME1 ==========================
+  id: 23453069963743007872
+  identification: 
+    name: EMP.ENAME1
+
+  subscription: 
+    version-number: 15614495107638
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: EMP
+
+  column-mapping: 
+    return: EMPNO
+    display: ENAME
+    default-sort: ENAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: EMP.ENAME ===========================
+  id: 80532171815116422005
+  identification: 
+    name: EMP.ENAME
+
+  subscription: 
+    version-number: 15584305183688
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: EMP
+
+  column-mapping: 
+    return: EMPNO
+    display: ENAME
+    default-sort: ENAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: DEPT.DNAME ==========================
+  id: 80532172541067422005
+  identification: 
+    name: DEPT.DNAME
+
+  subscription: 
+    version-number: 15584305183706
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: DEPT
+
+  column-mapping: 
+    return: DEPTNO
+    display: DNAME
+    default-sort: DNAME
+    sort-direction: Ascending (Nulls Last)
+

@@ -1,0 +1,2 @@
+* Nainstalujte si do workspacu Sample DataSet EMP/DEPT - SQL Workshop/Utilities/Sample Data Sets 
+* Vytvořte archiv ze složky CS_workshop_2024-11 - CS_workshop_2024-11.zip a naimportujte aplikaci do svého workspacu
