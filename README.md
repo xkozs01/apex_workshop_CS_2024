@@ -1,7 +1,10 @@
 # Myšlenková mapa s obsahem workshopu
  https://xkozs01.github.io/apex_workshop_CS_2024/
- # Draft prezentace
- https://xkozs01.github.io/apex_workshop_CS_2024/presentation_html/apex_for_cs_1.html
+ # Prezentace
+ [Architektura](presentation/Architecture/architecture.md)
+ [JavaScript - základy](presentation/Javascript/javascript.md)
+ [JavaScript v APEXu](presentation/Javascript/javascript_apex.md)
+
 # Laby
 [Základy Javascriptu](labs/javascript/labs_javascript.MD)
 
