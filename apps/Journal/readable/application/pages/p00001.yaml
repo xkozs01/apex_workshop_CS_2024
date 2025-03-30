@@ -43,6 +43,9 @@ regions:
     name: Journal
     type: Static Content
 
+  source: 
+    html-code: This is my journal
+
   layout: 
     sequence: 10
     parent-region: No Parent

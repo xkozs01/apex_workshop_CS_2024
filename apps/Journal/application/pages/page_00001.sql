@@ -25,10 +25,11 @@ wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(14183525018458389)
 ,p_plug_name=>'Journal'
 ,p_region_template_options=>'#DEFAULT#'
-,p_escape_on_http_output=>'Y'
 ,p_plug_template=>wwv_flow_imp.id(13962466424457761)
 ,p_plug_display_sequence=>10
 ,p_plug_display_point=>'REGION_POSITION_01'
+,p_location=>null
+,p_plug_source=>'This is my journal'
 ,p_plug_query_num_rows=>15
 ,p_region_image=>'#APP_FILES#icons/app-icon-512.png'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
