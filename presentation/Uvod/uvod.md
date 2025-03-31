@@ -1,7 +1,8 @@
 ---
 marp: true
 theme: 
-title:
+title: Oracle APEX Workshop pro ČS
+
 ---
 # Oracle APEX Workshop pro ČS
 
@@ -26,3 +27,7 @@ title:
 - Procvičit základní administrativní úkony
 - Ukázat zajímavé příklady využítí - ukázka ATM
 
+---
+
+## Kontrola nastavení prostředí
+[Popis nastavení prostředí](../../setup/enviroment.MD)

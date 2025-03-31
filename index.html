@@ -4,55 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APEX Workshop CS 2024</title>
+    
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f4f4f9;
             color: #333;
         }
-        h1, h2 {
+
+        /* Header Styles */
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
             color: #0056b3;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
         }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         li {
             margin: 10px 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #0056b3;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <h1>APEX Workshop CS 2024</h1>
-    <p><a href="mindmap/workshopCS.html">Myšlenková mapa s obsahem workshopu</a></p>
+    <header>
+        <h1>APEX Workshop ČS 2024</h1>
+    </header>
 
-    <h2>Prezentace</h2>
-    <ul>
-        <li><a href="presentation/Uvod/uvod.html">Úvod</a></li>
-        <li><a href="presentation/Javascript/javascript.html">JavaScript - základy</a></li>
-        <li><a href="presentation/Javascript/javascript_apex.html">JavaScript v APEXu</a></li>
-        <li><a href="presentation/CSS/CSS.html">CSS</a></li>
-        <li><a href="presentation/Architecture/architecture.html">Architektura</a></li>
-        <li><a href="presentation/Administration/Administration.html">Administrace</a></li>
-    </ul>
+    <main>
+        <p><a href="mindmap/workshopCS.html" target="_blank">Myšlenková mapa s obsahem workshopu</a></p>
 
-    <h2>Laby</h2>
-    <ul>
-        <li><a href="labs/javascript/labs_javascript.MD">Základy Javascriptu</a></li>
-        <li><a href="labs/javascript/labs_javascript_in_APEX.MD">Javascript v APEXu</a></li>
-        <li><a href="labs/Administration/Administation.MD">Administrace</a></li>
-    </ul>
+        <h2>Prezentace</h2>
+        <ul>
+            <li><a href="presentation/Uvod/uvod.html" target="_blank">Úvod</a></li>
+            <li><a href="presentation/Javascript/javascript.html" target="_blank">JavaScript - základy</a></li>
+            <li><a href="presentation/Javascript/javascript_apex.html" target="_blank">JavaScript v APEXu</a></li>
+            <li><a href="presentation/CSS/CSS.html" target="_blank">CSS</a></li>
+            <li><a href="presentation/Architecture/architecture.html" target="_blank">Architektura</a></li>
+            <li><a href="presentation/Administration/Administration.html" target="_blank">Administrace</a></li>
+        </ul>
 
-    <p>- ostatní - ATM, vývoj ATM, Rest API příklad</p>
+        <h2>Laby</h2>
+        <ul>
+            <li><a href="https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/javascript/labs_javascript.MD" target="_blank" rel="noopener">Základy Javascriptu</a></li>
+            <li><a href="https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/javascript/labs_javascript_in_APEX.MD" target="_blank">Javascript v APEXu</a></li>
+            <li><a href="https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/Administration/Administation.MD" target="_blank">Administrace</a></li>
+        </ul>
+
+        <p>- ostatní - ATM, vývoj ATM, Rest API příklad</p>
+    </main>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>
