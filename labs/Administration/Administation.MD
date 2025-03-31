@@ -50,19 +50,85 @@ Launch APEX
 
 ---
 
-### 3. Zálohování - TODO
+### 3. Zálohování - Export/Import + Github
 **Cíl:** Naučit se zálohovat a obnovovat aplikace a pracovní prostory v APEX.
 
 **Úkoly:**  
-1. Exportujte aplikaci jako záložní soubor.
-2. Exportujte celý workspace.
-3. Importujte zálohu do jiné instance APEX.
-4. Ověřte funkčnost aplikace po obnovení.
+* Přihlaste se do APEXu jako CS2025_admin
+![alt text](image-8.png)
+* Vytvořte novou aplikaci
+![alt text](image-9.png)
+* Zvolte Export/import
+![alt text](image-10.png)
+* Export
+* Zvolte true pro Readable format, Split into Multiple Files, Original IDs - true
+![alt text](image-11.png)
+* Zmačkněte Export
+![alt text](image-12.png)
+* Rozbalte archiv s aplikaci a zkopirujte aplikaci do adresáře s Váším git repositářem, např. ...\GitHub.com\apex_workshop_CS_2024\apps\Journal\
+* Nahrejte aplikaci do Gitu
+![alt text](image-13.png)
+* Udělejte změnu v aplikaci, např. přidejte text na Home page
+![alt text](image-14.png)
+* Zopakujte export, rozbalte aplikaci do stejného adresáře jako minule, např. např. ...\GitHub.com\apex_workshop_CS_2024\apps\Journal\. 
+Podivejte se na změny ve Vášem Git klientu - např. Github Deskop
+![alt text](image-15.png)
+* Smažte aplikaci
+![alt text](image-16.png)
+* Zabalte aplikaci z gitu do archivu, např. Journal.zip
+* Naimportujte aplikaci zpět do APEXu
+![alt text](image-17.png)
+* ![alt text](image-18.png)
+![alt text](image-19.png)
+* Spusťte aplikaci
+![alt text](image-20.png)
 
-**Ověření:**  
-- Spusťte aplikaci po obnovení a ověřte její funkčnost.
 
----
+### 4. Zálohování - Pravidelné zálohy
+* Otevřte Worspace Utilities/Manage Backups
+![alt text](image-21.png)
+* Zvolte aplikaci
+![alt text](image-22.png)
+* Vytvořte backup
+![alt text](image-23.png)
+* Stahněte backup
+![alt text](image-24.png)
+* Proveďtě změnu v aplikaci, např. přidejte novou stránku
+![alt text](image-25.png)
+![alt text](image-26.png)
+* Otevřte Manage backups
+![alt text](image-27.png)
+* Zvolte Restore Backup
+![alt text](image-28.png)
+![alt text](image-29.png)
+* Zkontrolujte, že nová stránka už v aplikaci není
+![alt text](image-30.png)
+### 5. Zálohování - počet záloh
+* Přihlaste se do workspace Internal
+* Manage Instance, Feature Configuration, Application Development,
+Number of backups per application
+![alt text](image-36.png)
+
+Monitor activity - Backup log
+![alt text](image-37.png)
+
+
+### 6. Zálohování workspace
+* Přihlaste se do workspace Internal
+
+* Manage workspaces/Export workspace
+![alt text](image-31.png)
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+![alt text](image-35.png)
+
+![alt text](image-34.png)
+
+Pozor, export workspace obsahuje jenom uživatele workspacu, neobsahuje schémata a aplikace. 
+
+
 
 ### 4. Bezpečnost / SSO
 **Cíl:** Nastavit a konfigurovat Single Sign-On (SSO) v APEX.
