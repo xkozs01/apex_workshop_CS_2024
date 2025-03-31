@@ -130,32 +130,23 @@ Pozor, export workspace obsahuje jenom uživatele workspacu, neobsahuje schémat
 
 
 
-### 4. Bezpečnost / SSO
-**Cíl:** Nastavit a konfigurovat Single Sign-On (SSO) v APEX.
+### 4. Bezpečnost / SSO / Autentizace
+**Cíl:** Nastavit a konfigurovat způsob autentizace v APEXu.
 
 **Úkoly:**  
-1. Nakonfigurujte autentizaci přes SSO.
-2. Přidejte externího poskytovatele identity (např. LDAP, OAuth2).
-3. Ověřte funkčnost přihlašování přes SSO.
+1. Přihlaste se jako CS2025_DEV (na změnu autentizace má právo admin a vývojář)
+2. App Builder/Aplikace Journal (nebo jakakoliv jiná)
+3. Shared Components/Authentication Schemes
+![alt text](image-38.png)
+4. Vytvořte nové autenikační schéma - zvolte týp Open Door Credentials
+![alt text](image-39.png)
+![alt text](image-40.png)
+5. Spusťte aplikaci s autenikační schématem Oracle APEX Accounts
+![alt text](image-41.png)
+6. Změnte způsob autentikace na OpenDoor
+* Otevřit autenikační schéma OpenDoor, zmačknout *Make Current Scheme*
+![alt text](image-42.png)
+5. Spusťte aplikaci s autenikační schématem Open Door
+![alt text](image-43.png)
 
-**Ověření:**  
-- Přihlaste se pomocí SSO a ověřte přístup k aplikacím.
-
----
-
-### 5. Změna certifikátů
-**Cíl:** Vyměnit SSL certifikát pro APEX a ověřit jeho správnost.
-
-**Úkoly:**  
-1. Nahrajte nový SSL certifikát do Oracle Wallet.
-2. Nakonfigurujte APEX tak, aby používal nový certifikát.
-3. Ověřte správnost certifikátu pomocí prohlížeče a nástroje `openssl`.
-
-**Ověření:**  
-- Přistupte k APEX přes HTTPS a ověřte platnost certifikátu.
-- Použijte `openssl s_client -connect <hostname>:443` k ověření SSL certifikátu.
-
----
-
-Tyto laboratorní úlohy pokrývají klíčové aspekty administrace Oracle APEX a mohou být upraveny podle konkrétních potřeb.
 
