@@ -1,4 +1,4 @@
-# Myšlenková mapa s obsahem workshopu
+# Prezentace
  https://xkozs01.github.io/apex_workshop_CS_2024/
  # Prezentace
  [JavaScript - základy](presentation/Javascript/javascript.md)
