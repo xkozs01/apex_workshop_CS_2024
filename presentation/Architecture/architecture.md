@@ -205,7 +205,7 @@ APEX applications are developed in an area called a workspace. Each workspace ha
 # Zdroje
 
 - [Dokumentace Oracle](https://docs.oracle.com/en/database/oracle/apex/24.2/htmdb/understanding-oracle-apex.html#GUID-B9B624D1-D934-496B-9334-1F63DA3E06CE)  
-- Oracle Application Express Administration: For DBAs and Developers**  
+- Oracle Application Express Administration: For DBAs and Developers
 - [Stánky Oracle APEX](https://apex.oracle.com/en/platform/architecture/)  
 - [APEX architectures - Niels DeBruijn](https://www.youtube.com/watch?v=VjksT7XS_8k)
 - test source
