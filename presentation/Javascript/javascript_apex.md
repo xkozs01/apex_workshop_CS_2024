@@ -10,17 +10,22 @@ title:
 
 Získání hodnoty z položky: 
 ``` 
-$v("P1_ITEM").
+```javascript
+$v("P1_ITEM");
+apex.item("P1_ITEM").getValue();
 ```
+
 Nastavení hodnoty položky:
 ``` 
-apex.item("P1_ITEM").setValue("Nová hodnota").
+$s("P1_ITEM", "Nová hodnota");
+apex.item("P1_ITEM").setValue("Nová hodnota");
 ``` 
 
 ---
 # Dynamické akce 
 
 Deklarativní způsob, jak přidat dynamické chování na stránku
+![alt text](image-7.png)
 * Nakonfigurujte atributy pro určení toho, co se stane a kdy
 * APEX vygeneruje JavaScript a přidá ho na stránku
 

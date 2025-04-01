@@ -13,7 +13,7 @@ title:
 # 1. Úvod do Oracle APEX
 
 - **Co je Oracle APEX?**
-  - Low-code platforma pro tvorbu škálovatelných, bezpečných a vizuálně atraktivních aplikací.
+  - Low-code platforma pro tvorbu škálovatelných, bezpečných a vizuálně atraktivních aplikací. 
   - Integrovaná do Oracle Database – využívá PL/SQL a metadata k dynamickému generování stránek.
   - Součást Oracle RAD Stack (ORDS, APEX, Database)
 - **Klíčové vlastnosti:**

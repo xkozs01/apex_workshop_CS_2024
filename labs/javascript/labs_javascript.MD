@@ -4,14 +4,14 @@
 
 ### Cvičení 1: Otevření Developer Tools a základy práce s konzolí
 
-1. **Otevřete Chrome Developer Tools**:
 V této části se naučíte, jak deklarovat proměnné a používat různé operátory v konzoli webového prohlížeče.
+1. **Otevřete Chrome Developer Tools**:
    - Otevřete libovolnou webovou stránku.
    - Stiskněte `F12` nebo použijte kombinaci `Ctrl + Shift + I` (Windows) nebo `Cmd + Option + I` (Mac) pro otevření Developer Tools.
 
 2. **Práce s konzolí**:
    - Přepněte se na záložku **Console**.
-   - Do konzole zadejte následující kód. Nepoužívejte kopírování a vložení, ale zadejte jej sami. Stisknutím `Enter` se kód v konzoli spustí, `Shift+Enter` vytvoří nový řádek.
+   - Do konzole zadejte následující kód. Stisknutím `Enter` se kód v konzoli spustí, `Shift+Enter` vytvoří nový řádek.
      ```javascript
      var var1 = 1;
      var var2 = 2;

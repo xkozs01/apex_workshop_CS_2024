@@ -66,4 +66,4 @@ for (let i = 0; i < 5; i++) {
 
 [Základy JavaScriptu - lokální](../../labs/javascript/labs_javascript.MD)
 
-```
+
