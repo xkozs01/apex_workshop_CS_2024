@@ -208,3 +208,4 @@ APEX applications are developed in an area called a workspace. Each workspace ha
 - Oracle Application Express Administration: For DBAs and Developers**  
 - [Stánky Oracle APEX](https://apex.oracle.com/en/platform/architecture/)  
 - [APEX architectures - Niels DeBruijn](https://www.youtube.com/watch?v=VjksT7XS_8k)
+- test source

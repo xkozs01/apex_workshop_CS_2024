@@ -27,15 +27,28 @@ jobs:
     - name: Install Marp CLI
       run: npm install -g @marp-team/marp-cli
 
-    # Step 4: Convert Markdown files to HTML
+    # Step 4: Debug File Detection
+    - name: Debug File Detection
+      run: |
+        echo "Markdown files found:"
+        find presentation -name '*.md'
+
+    # Step 5: Convert Markdown files to HTML
     - name: Convert Markdown to HTML
       run: |
         mkdir -p converted
         for file in $(find presentation -name '*.md'); do
+          echo "Processing $file"
           marp "$file" --html --output "converted/$(basename "${file%.md}.html")"
         done
 
-    # Step 5: Commit and push the converted HTML files
+    # Step 6: Debug Converted Files
+    - name: Debug Converted Files
+      run: |
+        echo "Converted files:"
+        ls -l converted
+
+    # Step 7: Commit and push the converted HTML files
     - name: Commit and push changes
       run: |
         git config --global user.name "GitHub Actions"
