@@ -62,6 +62,8 @@ for (let i = 0; i < 5; i++) {
 ```
 ---
 # Lab - Základy JavaScriptu
-[Lab na Github.com](../../labs/javascript/labs_javascript.MD)
+[Základy JavaScriptu - GitHub](https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/javascript/labs_javascript.MD)
+
+[Základy JavaScriptu - lokální](../../labs/javascript/labs_javascript.MD)
 
 ```
