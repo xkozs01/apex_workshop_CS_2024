@@ -31,7 +31,8 @@ title:
 
 # 3. Metadata
 
-* Při vytvoření/rozšíření aplikace APEX ukládá metadata do databázových tabulek pomocí uložených procedur v packagích APEX_xxx
+![bg right 50% alt text](image-12.png)
+* Při vytvoření/rozšíření aplikace APEX ukládá metadata do databázových tabulek pomocí uložených procedur v packagích WWV_xxx
 * Engine APEX čte metadata pro zobrazení stránek a zpracování požadavků
 * Správa stavu relace (session state) v databázi
 * PL/SQL manipuluje daty přímo v databázi
@@ -208,4 +209,4 @@ APEX applications are developed in an area called a workspace. Each workspace ha
 - Oracle Application Express Administration: For DBAs and Developers
 - [Stánky Oracle APEX](https://apex.oracle.com/en/platform/architecture/)  
 - [APEX architectures - Niels DeBruijn](https://www.youtube.com/watch?v=VjksT7XS_8k)
-- test source
+

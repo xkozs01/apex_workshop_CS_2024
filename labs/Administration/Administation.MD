@@ -51,7 +51,7 @@ Launch APEX
 ---
 
 ### 3. Zálohování - Export/Import + Github
-**Cíl:** Naučit se zálohovat a obnovovat aplikace a pracovní prostory v APEX.
+**Cíl:** Naučit se zálohovat a obnovovat aplikace a pracovní prostory v APEXu.
 
 **Úkoly:**  
 * Přihlaste se do APEXu jako CS2025_admin
@@ -140,6 +140,7 @@ Pozor, export workspace obsahuje jenom uživatele workspacu, neobsahuje schémat
 ![alt text](image-38.png)
 4. Vytvořte nové autenikační schéma - zvolte týp Open Door Credentials
 ![alt text](image-39.png)
+
 ![alt text](image-40.png)
 5. Spusťte aplikaci s autenikační schématem Oracle APEX Accounts
 ![alt text](image-41.png)

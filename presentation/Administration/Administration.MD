@@ -15,7 +15,9 @@ title:
 - Worspace developer - vývoj aplikací
 - Runtime uživatel - nemá práva na vývoj
 
-[Lab 1 - Správa uživatelských účtů a přístupových práv ](../../labs/Administration/Administation.MD)
+[Cvičení 1 - Správa uživatelských účtů a přístupových práv - GitHub](https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/Administration/Administation.MD)
+[Cvičení 1 - Správa uživatelských účtů a přístupových práv - lokální](../../labs/Administration/Administation.MD)
+
 
 ---
 ### Zálohování
@@ -34,11 +36,13 @@ title:
 ### Export aplikace do souboru
 
 * Po káždé změně - export a uložení do gitu
-[Cvičení 3](../../labs/Administration/Administation.MD)
+[Cvičení 3 - Export aplikace do souboru - GitHub](https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/Administration/Administation.MD)  
+[Cvičení 3 - Export aplikace do souboru - lokální](../../labs/Administration/Administation.MD)
 
 ---
 
 ### Pravidelné zálohování aplikace v APEXu
-[Cvičení 4](../../labs/Administration/Administation.MD)
+[Cvičení 4 - Pravidelné zálohování aplikace v APEXu - GitHub](https://github.com/xkozs01/apex_workshop_CS_2024/blob/main/labs/Administration/Administation.MD)  
+[Cvičení 4 - Pravidelné zálohování aplikace v APEXu - lokální](../../labs/Administration/Administation.MD)
 
 

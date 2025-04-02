@@ -26,9 +26,15 @@ title:
 ---
 
 # Test case management
-* generování zdrojového kódu do GitHub
+* generování zdrojového kódu do GitHub (Rest API)
+* generování Jenkins jobů (HTTP request)
 * odkázy na Jenkins
 ![Test case management](image-15.png)
+
+---
+
+# Zdrojový kód test casu
+![alt text](image-21.png)
 
 ---
 

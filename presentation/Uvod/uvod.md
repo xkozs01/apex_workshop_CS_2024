@@ -16,7 +16,7 @@ title: Oracle APEX Workshop pro ČS
 
 
 
-- Představení účastníků - zkušenosti s PL/SQL, APEXem, Javascriptem, administraci APEXu
+- Představení účastníků - zkušenosti s PL/SQL, APEXem, Javascriptem, Git, administraci APEXu
 
 ---
 
