@@ -1,7 +1,8 @@
 ---
 marp: true
 theme: 
-title:
+title: Architektura Oracle APEX
+
 ---
 
 
