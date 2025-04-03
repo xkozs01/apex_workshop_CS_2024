@@ -5,6 +5,20 @@
     name: Breadcrumb
 
   entries: 
+  - # ====== Entry: Gratitude jorunal ============================
+    id: 887171793188193
+    identification: 
+      name: Gratitude jorunal
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Gratitude jorunal
+
   - # ====== Entry: Home =========================================
     id: 28073912705133846
     identification: 

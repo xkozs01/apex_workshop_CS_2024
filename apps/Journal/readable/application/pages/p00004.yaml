@@ -1,10 +1,10 @@
 ---
-# ====== Page: Home ==========================================
-id: 1
+# ====== Page: Gratitude jorunal =============================
+id: 4
 identification: 
-  name: Home
-  alias: HOME
-  title: Journal
+  name: Gratitude jorunal
+  alias: GRATITUDE-JORUNAL
+  title: Gratitude jorunal
 
 appearance: 
   page-mode: Normal
@@ -37,14 +37,14 @@ server-cache:
   caching: Disabled
 
 regions: 
-- # ====== Region: Journal =====================================
-  id: 28374782051134595
+- # ====== Region: Breadcrumb ==================================
+  id: 886670470188183
   identification: 
-    name: Journal
-    type: Static Content
+    name: Breadcrumb
+    type: Breadcrumb
 
   source: 
-    html-code: This is my journal
+    breadcrumb: Breadcrumb # 28073753551133845
 
   layout: 
     sequence: 10
@@ -57,17 +57,15 @@ regions:
     column-span: Automatic
 
   appearance: 
-    template: Hero
+    template: Title Bar
     template-options: 
     - '#DEFAULT#'
+    - t-BreadcrumbRegion--useBreadcrumbTitle
     render-components: Above Content
 
   accessibility: 
     use-landmark: true
     landmark-type: Template Default
-
-  image: 
-    file-url: '#APP_FILES#icons/app-icon-512.png'
 
   advanced: 
     region-display-selector: false
@@ -77,36 +75,8 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    settings: 
-      output-as: HTML
-      expand-shortcuts: false
-
-buttons: 
-- # ====== Button: New =========================================
-  id: 5461559072404
-  identification: 
-    button-name: New
-    label: New
-
-  layout: 
-    sequence: 20
-    region: No Parent
-    slot: REGION_POSITION_01
-    start-new-layout: false
-    start-new-row: true
-    column: Automatic
-    new-column: true
-    column-span: Automatic
-
-  appearance: 
-    button-template: Text
-    hot: false
-    template-options: 
-    - '#DEFAULT#'
-
-  behavior: 
-    action: Submit Page
-    execute-validations: true
-    show-processing: false
-    warn-on-unsaved-changes: Do Not Check
+    appearance: 
+      breadcrumb-template: Breadcrumb
+      template-options: 
+      - '#DEFAULT#'
 

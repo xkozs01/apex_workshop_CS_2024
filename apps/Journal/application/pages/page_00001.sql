@@ -37,6 +37,16 @@ wwv_flow_imp_page.create_page_plug(
   'output_as', 'HTML',
   'show_line_breaks', 'Y')).to_clob
 );
+wwv_flow_imp_page.create_page_button(
+ p_id=>wwv_flow_imp.id(5461559072404)
+,p_button_sequence=>20
+,p_button_name=>'New'
+,p_button_action=>'SUBMIT'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_imp.id(28250623166134059)
+,p_button_image_alt=>'New'
+,p_button_position=>'REGION_POSITION_01'
+);
 wwv_flow_imp.component_end;
 end;
 /

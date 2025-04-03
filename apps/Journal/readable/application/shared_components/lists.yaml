@@ -5,12 +5,39 @@
     name: Navigation Menu
 
   subscription: 
-    version-number: 44526747345159
+    version-number: 44541287099116
 
   source: 
     type: Static Values
 
   entries: 
+  - # ====== Entry: Gratitude jorunal ============================
+    id: 886302706188167
+    label: 
+      label: Gratitude jorunal
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 4
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Gratitude jorunal
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
   - # ====== Entry: Home =========================================
     id: 28373946193134587
     label: 
