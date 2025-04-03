@@ -1,6 +1,6 @@
 ---
 - # ====== Button Template: Icon ===============================
-  id: 14058640255457850
+  id: 28249897288134056
   identification: 
     name: Icon
     identifier: ICON
@@ -19,7 +19,7 @@
 
   template-options: 
   - # ====== Template Option: Push ===============================
-    id: 14059085154457853
+    id: 28250342187134059
     identification: 
       name: Push
       identifier: PUSH
@@ -37,7 +37,7 @@
       help-text: The icon will animate to the right or left on button hover or focus.
 
   - # ====== Template Option: Spin ===============================
-    id: 14059209962457853
+    id: 28250466995134059
     identification: 
       name: Spin
       identifier: SPIN
@@ -55,7 +55,7 @@
       help-text: The icon will spin on button hover or focus.
 
 - # ====== Button Template: Text ===============================
-  id: 14059366133457853
+  id: 28250623166134059
   identification: 
     name: Text
     identifier: TEXT
@@ -73,7 +73,7 @@
     hot: '<button class="t-Button t-Button--hot #BUTTON_CSS_CLASSES#" type="button" #BUTTON_ATTRIBUTES# #ONCLICK# id="#BUTTON_ID#"><span class="t-Button-label">#LABEL#</span></button>'
 
 - # ====== Button Template: Text with Icon =====================
-  id: 14059498287457853
+  id: 28250755320134059
   identification: 
     name: Text with Icon
     identifier: TEXT_WITH_ICON
@@ -96,7 +96,7 @@
 
   template-options: 
   - # ====== Template Option: Hide Icon on Desktop ===============
-    id: 14059637208457853
+    id: 28250894241134059
     identification: 
       name: Hide Icon on Desktop
       identifier: HIDE_ICON_ON_DESKTOP
@@ -113,7 +113,7 @@
       help-text: This template options hides the button icon on large screens.
 
   - # ====== Template Option: Hide Label on Mobile ===============
-    id: 14059842531457853
+    id: 28251099564134059
     identification: 
       name: Hide Label on Mobile
       identifier: HIDE_LABEL_ON_MOBILE
@@ -130,7 +130,7 @@
       help-text: This template options hides the button label on small screens.
 
   - # ====== Template Option: Left ===============================
-    id: 14060258226457854
+    id: 28251515259134060
     identification: 
       name: Left
       identifier: LEFTICON
@@ -145,7 +145,7 @@
       - t-Button--iconLeft
 
   - # ====== Template Option: Push ===============================
-    id: 14060406123457854
+    id: 28251663156134060
     identification: 
       name: Push
       identifier: PUSH
@@ -163,7 +163,7 @@
       help-text: The icon will animate to the right or left on button hover or focus.
 
   - # ====== Template Option: Right ==============================
-    id: 14060691879457854
+    id: 28251948912134060
     identification: 
       name: Right
       identifier: RIGHTICON
@@ -178,7 +178,7 @@
       - t-Button--iconRight
 
   - # ====== Template Option: Spin ===============================
-    id: 14060805149457854
+    id: 28252062182134060
     identification: 
       name: Spin
       identifier: SPIN

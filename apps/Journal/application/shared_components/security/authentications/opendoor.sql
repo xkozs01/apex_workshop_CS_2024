@@ -1,7 +1,7 @@
-prompt --application/shared_components/security/authentications/oracle_apex_accounts
+prompt --application/shared_components/security/authentications/opendoor
 begin
 --   Manifest
---     AUTHENTICATION: Oracle APEX Accounts
+--     AUTHENTICATION: OpenDoor
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
@@ -12,13 +12,12 @@ wwv_flow_imp.component_begin (
 ,p_default_owner=>'WKSP_CS2025'
 );
 wwv_flow_imp_shared.create_authentication(
- p_id=>wwv_flow_imp.id(28073415517133842)
-,p_name=>'Oracle APEX Accounts'
-,p_scheme_type=>'NATIVE_APEX_ACCOUNTS'
-,p_invalid_session_type=>'LOGIN'
+ p_id=>wwv_flow_imp.id(288191768903339)
+,p_name=>'OpenDoor'
+,p_scheme_type=>'NATIVE_OPEN_DOOR'
 ,p_use_secure_cookie_yn=>'N'
 ,p_ras_mode=>0
-,p_version_scn=>44526747269283
+,p_version_scn=>44530794297590
 );
 wwv_flow_imp.component_end;
 end;

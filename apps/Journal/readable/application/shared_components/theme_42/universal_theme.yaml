@@ -29,7 +29,7 @@ component-defaults:
   login-page: Login
   error-page: Login
   printer-friendly-page: Standard
-  breadcrumb: 14060988568457855
+  breadcrumb: 28252245601134061
   button: Text
   legacy-calendar: Calendar
   default-label: Optional - Floating
@@ -61,7 +61,7 @@ files:
 
 styles: 
 - # ====== Style: Redwood Light ================================
-  id: 14148317288458247
+  id: 28339574321134453
   identification: 
     name: Redwood Light
 
@@ -81,7 +81,7 @@ styles:
     output-css-file-url: '#THEME_FILES#css/Redwood-Theme#MIN#.css?v=#APEX_VERSION#'
 
 - # ====== Style: Vita =========================================
-  id: 14148576663458248
+  id: 28339833696134454
   identification: 
     name: Vita
 
@@ -96,7 +96,7 @@ styles:
     output-css-file-url: '#THEME_FILES#css/Vita#MIN#.css?v=#APEX_VERSION#'
 
 - # ====== Style: Vita - Dark ==================================
-  id: 14148705876458248
+  id: 28339962909134454
   identification: 
     name: Vita - Dark
 
@@ -111,7 +111,7 @@ styles:
     output-css-file-url: '#THEME_FILES#css/Vita-Dark#MIN#.css?v=#APEX_VERSION#'
 
 - # ====== Style: Vita - Red ===================================
-  id: 14148911569458248
+  id: 28340168602134454
   identification: 
     name: Vita - Red
 
@@ -126,7 +126,7 @@ styles:
     output-css-file-url: '#THEME_FILES#css/Vita-Red#MIN#.css?v=#APEX_VERSION#'
 
 - # ====== Style: Vita - Slate =================================
-  id: 14149127473458248
+  id: 28340384506134454
   identification: 
     name: Vita - Slate
 

@@ -1,6 +1,6 @@
 ---
 - # ====== Classic Report Template: Alerts =====================
-  id: 14005732967457792
+  id: 28196990000133998
   identification: 
     name: Alerts
     identifier: ALERTS
@@ -64,7 +64,7 @@
       </a>
 
 - # ====== Classic Report Template: Badge List =================
-  id: 14005920219457794
+  id: 28197177252134000
   identification: 
     name: Badge List
     identifier: BADGE_LIST
@@ -123,7 +123,7 @@
 
   template-options: 
   - # ====== Template Option: 128px ==============================
-    id: 14006432303457795
+    id: 28197689336134001
     identification: 
       name: 128px
       identifier: 128PX
@@ -138,7 +138,7 @@
       - t-BadgeList--xxlarge
 
   - # ====== Template Option: 2 Column Grid ======================
-    id: 14006866498457795
+    id: 28198123531134001
     identification: 
       name: 2 Column Grid
       identifier: 2COLUMNGRID
@@ -156,7 +156,7 @@
       help-text: Arrange badges in a two column grid
 
   - # ====== Template Option: 32px ===============================
-    id: 14007072696457795
+    id: 28198329729134001
     identification: 
       name: 32px
       identifier: 32PX
@@ -171,7 +171,7 @@
       - t-BadgeList--small
 
   - # ====== Template Option: 3 Column Grid ======================
-    id: 14007239849457796
+    id: 28198496882134002
     identification: 
       name: 3 Column Grid
       identifier: 3COLUMNGRID
@@ -190,7 +190,7 @@
       help-text: Arrange badges in a 3 column grid
 
   - # ====== Template Option: 48px ===============================
-    id: 14007446214457796
+    id: 28198703247134002
     identification: 
       name: 48px
       identifier: 48PX
@@ -205,7 +205,7 @@
       - t-BadgeList--medium
 
   - # ====== Template Option: 4 Column Grid ======================
-    id: 14007602029457796
+    id: 28198859062134002
     identification: 
       name: 4 Column Grid
       identifier: 4COLUMNGRID
@@ -221,7 +221,7 @@
       - t-BadgeList--4cols
 
   - # ====== Template Option: 5 Column Grid ======================
-    id: 14007862825457796
+    id: 28199119858134002
     identification: 
       name: 5 Column Grid
       identifier: 5COLUMNGRID
@@ -237,7 +237,7 @@
       - t-BadgeList--5cols
 
   - # ====== Template Option: 64px ===============================
-    id: 14008086550457796
+    id: 28199343583134002
     identification: 
       name: 64px
       identifier: 64PX
@@ -252,7 +252,7 @@
       - t-BadgeList--large
 
   - # ====== Template Option: 96px ===============================
-    id: 14008294083457796
+    id: 28199551116134002
     identification: 
       name: 96px
       identifier: 96PX
@@ -267,7 +267,7 @@
       - t-BadgeList--xlarge
 
   - # ====== Template Option: Apply Theme Colors =================
-    id: 14008419901457796
+    id: 28199676934134002
     identification: 
       name: Apply Theme Colors
       identifier: APPLY_THEME_COLORS
@@ -281,7 +281,7 @@
       - u-colors
 
   - # ====== Template Option: Circular ===========================
-    id: 14008813720457796
+    id: 28200070753134002
     identification: 
       name: Circular
       identifier: CIRCULAR
@@ -296,7 +296,7 @@
       - t-BadgeList--circular
 
   - # ====== Template Option: Span Horizontally ==================
-    id: 14009098545457797
+    id: 28200355578134003
     identification: 
       name: Span Horizontally
       identifier: FIXED
@@ -311,7 +311,7 @@
       - t-BadgeList--fixed
 
   - # ====== Template Option: Flexible Box =======================
-    id: 14009297466457797
+    id: 28200554499134003
     identification: 
       name: Flexible Box
       identifier: FLEXIBLEBOX
@@ -326,7 +326,7 @@
       - t-BadgeList--flex
 
   - # ====== Template Option: Float Items ========================
-    id: 14009435921457797
+    id: 28200692954134003
     identification: 
       name: Float Items
       identifier: FLOATITEMS
@@ -341,7 +341,7 @@
       - t-BadgeList--float
 
   - # ====== Template Option: Grid ===============================
-    id: 14009614606457797
+    id: 28200871639134003
     identification: 
       name: Grid
       identifier: GRID
@@ -356,7 +356,7 @@
       - t-BadgeList--dash
 
   - # ====== Template Option: Stacked ============================
-    id: 14009841718457797
+    id: 28201098751134003
     identification: 
       name: Stacked
       identifier: STACKED
@@ -371,7 +371,7 @@
       - t-BadgeList--stacked
 
 - # ====== Classic Report Template: Cards ======================
-  id: 14009977282457797
+  id: 28201234315134003
   identification: 
     name: Cards
     identifier: CARDS
@@ -455,7 +455,7 @@
 
   template-options: 
   - # ====== Template Option: 2 Columns ==========================
-    id: 14010215579457797
+    id: 28201472612134003
     identification: 
       name: 2 Columns
       identifier: 2_COLUMNS
@@ -470,7 +470,7 @@
       - t-Cards--cols
 
   - # ====== Template Option: 2 Lines ============================
-    id: 14010672327457798
+    id: 28201929360134004
     identification: 
       name: 2 Lines
       identifier: 2_LINES
@@ -485,7 +485,7 @@
       - t-Cards--desc-2ln
 
   - # ====== Template Option: 3 Columns ==========================
-    id: 14010816119457798
+    id: 28202073152134004
     identification: 
       name: 3 Columns
       identifier: 3_COLUMNS
@@ -500,7 +500,7 @@
       - t-Cards--3cols
 
   - # ====== Template Option: 3 Lines ============================
-    id: 14011060367457798
+    id: 28202317400134004
     identification: 
       name: 3 Lines
       identifier: 3_LINES
@@ -515,7 +515,7 @@
       - t-Cards--desc-3ln
 
   - # ====== Template Option: 4 Columns ==========================
-    id: 14011295072457798
+    id: 28202552105134004
     identification: 
       name: 4 Columns
       identifier: 4_COLUMNS
@@ -530,7 +530,7 @@
       - t-Cards--4cols
 
   - # ====== Template Option: 4 Lines ============================
-    id: 14011456695457798
+    id: 28202713728134004
     identification: 
       name: 4 Lines
       identifier: 4_LINES
@@ -545,7 +545,7 @@
       - t-Cards--desc-4ln
 
   - # ====== Template Option: 5 Columns ==========================
-    id: 14011647887457798
+    id: 28202904920134004
     identification: 
       name: 5 Columns
       identifier: 5_COLUMNS
@@ -560,7 +560,7 @@
       - t-Cards--5cols
 
   - # ====== Template Option: Basic ==============================
-    id: 14011871607457799
+    id: 28203128640134005
     identification: 
       name: Basic
       identifier: BASIC
@@ -575,7 +575,7 @@
       - t-Cards--basic
 
   - # ====== Template Option: Block ==============================
-    id: 14012067688457799
+    id: 28203324721134005
     identification: 
       name: Block
       identifier: BLOCK
@@ -592,7 +592,7 @@
       - force-fa-lg
 
   - # ====== Template Option: Color Fill =========================
-    id: 14012471464457799
+    id: 28203728497134005
     identification: 
       name: Color Fill
       identifier: CARDS_COLOR_FILL
@@ -607,7 +607,7 @@
       - t-Cards--animColorFill
 
   - # ====== Template Option: Raise Card =========================
-    id: 14012672589457799
+    id: 28203929622134005
     identification: 
       name: Raise Card
       identifier: CARD_RAISE_CARD
@@ -622,7 +622,7 @@
       - t-Cards--animRaiseCard
 
   - # ====== Template Option: Compact ============================
-    id: 14012839416457799
+    id: 28204096449134005
     identification: 
       name: Compact
       identifier: COMPACT
@@ -640,7 +640,7 @@
       help-text: Use this option when you want to show smaller cards.
 
   - # ====== Template Option: Display Icons ======================
-    id: 14013268382457799
+    id: 28204525415134005
     identification: 
       name: Display Icons
       identifier: DISPLAY_ICONS
@@ -655,7 +655,7 @@
       - t-Cards--displayIcons
 
   - # ====== Template Option: Display Initials ===================
-    id: 14013431427457799
+    id: 28204688460134005
     identification: 
       name: Display Initials
       identifier: DISPLAY_INITIALS
@@ -670,7 +670,7 @@
       - t-Cards--displayInitials
 
   - # ====== Template Option: Display Subtitle ===================
-    id: 14013609438457800
+    id: 28204866471134006
     identification: 
       name: Display Subtitle
       identifier: DISPLAY_SUBTITLE
@@ -684,7 +684,7 @@
       - t-Cards--displaySubtitle
 
   - # ====== Template Option: Featured ===========================
-    id: 14013862757457800
+    id: 28205119790134006
     identification: 
       name: Featured
       identifier: FEATURED
@@ -700,7 +700,7 @@
       - force-fa-lg
 
   - # ====== Template Option: Float ==============================
-    id: 14014031935457800
+    id: 28205288968134006
     identification: 
       name: Float
       identifier: FLOAT
@@ -715,7 +715,7 @@
       - t-Cards--float
 
   - # ====== Template Option: Hidden =============================
-    id: 14014237758457800
+    id: 28205494791134006
     identification: 
       name: Hidden
       identifier: HIDDEN_BODY_TEXT
@@ -733,7 +733,7 @@
       help-text: This option hides the card body which contains description and subtext.
 
   - # ====== Template Option: Rounded Corners ====================
-    id: 14014697854457800
+    id: 28205954887134006
     identification: 
       name: Rounded Corners
       identifier: ICONS_ROUNDED
@@ -751,7 +751,7 @@
       help-text: The icons are displayed within a square with rounded corners.
 
   - # ====== Template Option: Square =============================
-    id: 14014824353457801
+    id: 28206081386134007
     identification: 
       name: Square
       identifier: ICONS_SQUARE
@@ -769,7 +769,7 @@
       help-text: The icons are displayed within a square shape.
 
   - # ====== Template Option: Span Horizontally ==================
-    id: 14015089148457801
+    id: 28206346181134007
     identification: 
       name: Span Horizontally
       identifier: SPAN_HORIZONTALLY
@@ -784,7 +784,7 @@
       - t-Cards--spanHorizontally
 
   - # ====== Template Option: Apply Theme Colors =================
-    id: 14015220875457801
+    id: 28206477908134007
     identification: 
       name: Apply Theme Colors
       identifier: USE_THEME_COLORS
@@ -798,7 +798,7 @@
       - u-colors
 
 - # ====== Classic Report Template: Comments ===================
-  id: 14015315031457801
+  id: 28206572064134007
   identification: 
     name: Comments
     identifier: COMMENTS
@@ -863,7 +863,7 @@
 
   template-options: 
   - # ====== Template Option: Basic ==============================
-    id: 14015815324457801
+    id: 28207072357134007
     identification: 
       name: Basic
       identifier: BASIC
@@ -878,7 +878,7 @@
       - t-Comments--basic
 
   - # ====== Template Option: Rounded Corners ====================
-    id: 14016021609457801
+    id: 28207278642134007
     identification: 
       name: Rounded Corners
       identifier: ICONS_ROUNDED
@@ -896,7 +896,7 @@
       help-text: The icons are displayed within a square with rounded corners.
 
   - # ====== Template Option: Square =============================
-    id: 14016270109457801
+    id: 28207527142134007
     identification: 
       name: Square
       identifier: ICONS_SQUARE
@@ -914,7 +914,7 @@
       help-text: The icons are displayed within a square shape.
 
   - # ====== Template Option: Speech Bubbles =====================
-    id: 14016452505457802
+    id: 28207709538134008
     identification: 
       name: Speech Bubbles
       identifier: SPEECH_BUBBLES
@@ -929,7 +929,7 @@
       - t-Comments--chat
 
 - # ====== Classic Report Template: Contextual Info ============
-  id: 14016549646457802
+  id: 28207806679134008
   identification: 
     name: Contextual Info
     identifier: CONTEXTUAL_INFO
@@ -980,7 +980,7 @@
 
   template-options: 
   - # ====== Template Option: Stacked ============================
-    id: 14017066107457802
+    id: 28208323140134008
     identification: 
       name: Stacked
       identifier: DISPLAY_ITEMS_STACKED
@@ -995,7 +995,7 @@
       - t-ContextualInfo-item--stacked
 
   - # ====== Template Option: Stacked ============================
-    id: 14017481480457802
+    id: 28208738513134008
     identification: 
       name: Stacked
       identifier: DISPLAY_LABELS_STACKED
@@ -1010,7 +1010,7 @@
       - t-ContextualInfo-label--stacked
 
   - # ====== Template Option: Hide Empty Values ==================
-    id: 14017673438457802
+    id: 28208930471134008
     identification: 
       name: Hide Empty Values
       identifier: HIDE_EMPTY_VALUES
@@ -1027,7 +1027,7 @@
       help-text: 'This option will hide the null rows. Note: This only works in browsers that supports :has() pseudo-class.'
 
 - # ====== Classic Report Template: Search Results =============
-  id: 14017700418457802
+  id: 28208957451134008
   identification: 
     name: Search Results
     identifier: SEARCH_RESULTS
@@ -1128,7 +1128,7 @@
     comments: ' (SELECT link_text, link_target, detail1, detail2, last_modified)'
 
 - # ====== Classic Report Template: Standard ===================
-  id: 14017930886457803
+  id: 28209187919134009
   identification: 
     name: Standard
     identifier: STANDARD
@@ -1201,7 +1201,7 @@
 
   template-options: 
   - # ====== Template Option: Disable ============================
-    id: 14018407252457804
+    id: 28209664285134010
     identification: 
       name: Disable
       identifier: ALTROWCOLORSDISABLE
@@ -1216,7 +1216,7 @@
       - t-Report--staticRowColors
 
   - # ====== Template Option: Enable =============================
-    id: 14018640376457804
+    id: 28209897409134010
     identification: 
       name: Enable
       identifier: ALTROWCOLORSENABLE
@@ -1231,7 +1231,7 @@
       - t-Report--altRowsDefault
 
   - # ====== Template Option: Enable =============================
-    id: 14019075227457805
+    id: 28210332260134011
     identification: 
       name: Enable
       identifier: ENABLE
@@ -1249,7 +1249,7 @@
       help-text: Enable row highlighting on mouse over
 
   - # ====== Template Option: Horizontal Only ====================
-    id: 14019430894457805
+    id: 28210687927134011
     identification: 
       name: Horizontal Only
       identifier: HORIZONTALBORDERS
@@ -1264,7 +1264,7 @@
       - t-Report--horizontalBorders
 
   - # ====== Template Option: No Borders =========================
-    id: 14019671038457805
+    id: 28210928071134011
     identification: 
       name: No Borders
       identifier: REMOVEALLBORDERS
@@ -1279,7 +1279,7 @@
       - t-Report--noBorders
 
   - # ====== Template Option: No Outer Borders ===================
-    id: 14019881016457805
+    id: 28211138049134011
     identification: 
       name: No Outer Borders
       identifier: REMOVEOUTERBORDERS
@@ -1294,7 +1294,7 @@
       - t-Report--inline
 
   - # ====== Template Option: Disable ============================
-    id: 14020042507457805
+    id: 28211299540134011
     identification: 
       name: Disable
       identifier: ROWHIGHLIGHTDISABLE
@@ -1312,7 +1312,7 @@
       help-text: Disable row highlighting on mouse over
 
   - # ====== Template Option: Stretch Report =====================
-    id: 14020270712457805
+    id: 28211527745134011
     identification: 
       name: Stretch Report
       identifier: STRETCHREPORT
@@ -1326,7 +1326,7 @@
       - t-Report--stretch
 
   - # ====== Template Option: Vertical Only ======================
-    id: 14020422616457806
+    id: 28211679649134012
     identification: 
       name: Vertical Only
       identifier: VERTICALBORDERS
@@ -1341,7 +1341,7 @@
       - t-Report--verticalBorders
 
 - # ====== Classic Report Template: Timeline ===================
-  id: 14020566517457806
+  id: 28211823550134012
   identification: 
     name: Timeline
     identifier: TIMELINE
@@ -1445,7 +1445,7 @@
 
   template-options: 
   - # ====== Template Option: Compact ============================
-    id: 14020840953457806
+    id: 28212097986134012
     identification: 
       name: Compact
       identifier: COMPACT
@@ -1463,7 +1463,7 @@
       help-text: Displays a compact version of timeline with smaller text and fewer columns.
 
 - # ====== Classic Report Template: Content Row ================
-  id: 14020977317457806
+  id: 28212234350134012
   identification: 
     name: Content Row
     identifier: CONTENT_ROW
@@ -1526,7 +1526,7 @@
 
   template-options: 
   - # ====== Template Option: Hidden =============================
-    id: 14021426088457807
+    id: 28212683121134013
     identification: 
       name: Hidden
       identifier: ACTIONS_HIDDEN
@@ -1544,7 +1544,7 @@
       help-text: Hides the Actions column from being rendered on the screen.
 
   - # ====== Template Option: Top ================================
-    id: 14021885335457807
+    id: 28213142368134013
     identification: 
       name: Top
       identifier: ALIGNMENT_TOP
@@ -1562,7 +1562,7 @@
       help-text: Aligns the content to the top of the row. This is useful when you expect that yours rows will vary in height (e.g. some rows will have longer descriptions than others).
 
   - # ====== Template Option: Hidden =============================
-    id: 14022270293457808
+    id: 28213527326134014
     identification: 
       name: Hidden
       identifier: DESCRIPTION_HIDDEN
@@ -1580,7 +1580,7 @@
       help-text: Hides the Description from being rendered on the screen.
 
   - # ====== Template Option: Hidden =============================
-    id: 14022654343457808
+    id: 28213911376134014
     identification: 
       name: Hidden
       identifier: ICON_HIDDEN
@@ -1598,7 +1598,7 @@
       help-text: Hides the Icon from being rendered on the screen.
 
   - # ====== Template Option: Hidden =============================
-    id: 14023073153457808
+    id: 28214330186134014
     identification: 
       name: Hidden
       identifier: MISC_HIDDEN
@@ -1616,7 +1616,7 @@
       help-text: Hides the Misc column from being rendered on the screen.
 
   - # ====== Template Option: Hidden =============================
-    id: 14023454720457808
+    id: 28214711753134014
     identification: 
       name: Hidden
       identifier: SELECTION_HIDDEN
@@ -1634,7 +1634,7 @@
       help-text: Hides the Selection column from being rendered on the screen.
 
   - # ====== Template Option: Compact ============================
-    id: 14023601473457808
+    id: 28214858506134014
     identification: 
       name: Compact
       identifier: STYLE_COMPACT
@@ -1652,7 +1652,7 @@
       help-text: This option reduces the padding and font sizes to present a compact display of the same information.
 
   - # ====== Template Option: Hidden =============================
-    id: 14024092909457809
+    id: 28215349942134015
     identification: 
       name: Hidden
       identifier: TITLE_HIDDEN
@@ -1670,7 +1670,7 @@
       help-text: Hides the Title from being rendered on the screen.
 
 - # ====== Classic Report Template: Media List =================
-  id: 14024125752457809
+  id: 28215382785134015
   identification: 
     name: Media List
     identifier: MEDIA_LIST
@@ -1762,7 +1762,7 @@
 
   template-options: 
   - # ====== Template Option: 2 Column Grid ======================
-    id: 14024452686457809
+    id: 28215709719134015
     identification: 
       name: 2 Column Grid
       identifier: 2_COLUMN_GRID
@@ -1778,7 +1778,7 @@
       - t-MediaList--2cols
 
   - # ====== Template Option: 3 Column Grid ======================
-    id: 14024653243457809
+    id: 28215910276134015
     identification: 
       name: 3 Column Grid
       identifier: 3_COLUMN_GRID
@@ -1794,7 +1794,7 @@
       - t-MediaList--3cols
 
   - # ====== Template Option: 4 Column Grid ======================
-    id: 14024834431457809
+    id: 28216091464134015
     identification: 
       name: 4 Column Grid
       identifier: 4_COLUMN_GRID
@@ -1810,7 +1810,7 @@
       - t-MediaList--4cols
 
   - # ====== Template Option: 5 Column Grid ======================
-    id: 14025014433457809
+    id: 28216271466134015
     identification: 
       name: 5 Column Grid
       identifier: 5_COLUMN_GRID
@@ -1826,7 +1826,7 @@
       - t-MediaList--5cols
 
   - # ====== Template Option: Apply Theme Colors =================
-    id: 14025203628457810
+    id: 28216460661134016
     identification: 
       name: Apply Theme Colors
       identifier: APPLY_THEME_COLORS
@@ -1840,7 +1840,7 @@
       - u-colors
 
   - # ====== Template Option: Rounded Corners ====================
-    id: 14025488641457810
+    id: 28216745674134016
     identification: 
       name: Rounded Corners
       identifier: ICONS_ROUNDED
@@ -1858,7 +1858,7 @@
       help-text: The icons are displayed within a square with rounded corners.
 
   - # ====== Template Option: Square =============================
-    id: 14025610227457810
+    id: 28216867260134016
     identification: 
       name: Square
       identifier: ICONS_SQUARE
@@ -1876,7 +1876,7 @@
       help-text: The icons are displayed within a square shape.
 
   - # ====== Template Option: Large ==============================
-    id: 14026011481457810
+    id: 28217268514134016
     identification: 
       name: Large
       identifier: LARGE
@@ -1895,7 +1895,7 @@
       help-text: Increases the size of the text and icons in the list.
 
   - # ====== Template Option: Show Badges ========================
-    id: 14026287113457810
+    id: 28217544146134016
     identification: 
       name: Show Badges
       identifier: SHOW_BADGES
@@ -1909,7 +1909,7 @@
       - t-MediaList--showBadges
 
   - # ====== Template Option: Show Description ===================
-    id: 14026470052457810
+    id: 28217727085134016
     identification: 
       name: Show Description
       identifier: SHOW_DESCRIPTION
@@ -1923,7 +1923,7 @@
       - t-MediaList--showDesc
 
   - # ====== Template Option: Show Icons =========================
-    id: 14026661390457810
+    id: 28217918423134016
     identification: 
       name: Show Icons
       identifier: SHOW_ICONS
@@ -1937,7 +1937,7 @@
       - t-MediaList--showIcons
 
   - # ====== Template Option: Span Horizontal ====================
-    id: 14026816543457811
+    id: 28218073576134017
     identification: 
       name: Span Horizontal
       identifier: SPAN_HORIZONTAL
@@ -1952,7 +1952,7 @@
       - t-MediaList--horizontal
 
   - # ====== Template Option: Stack ==============================
-    id: 14027089991457811
+    id: 28218347024134017
     identification: 
       name: Stack
       identifier: STACK
@@ -1967,7 +1967,7 @@
       - t-MediaList--stack
 
 - # ====== Classic Report Template: Value Attribute Pairs - Colu
-  id: 14027179593457811
+  id: 28218436626134017
   identification: 
     name: Value Attribute Pairs - Column
     identifier: VALUE_ATTRIBUTE_PAIRS_COLUMN
@@ -2020,7 +2020,7 @@
 
   template-options: 
   - # ====== Template Option: Fixed - Large ======================
-    id: 14027684316457811
+    id: 28218941349134017
     identification: 
       name: Fixed - Large
       identifier: FIXED_LARGE
@@ -2035,7 +2035,7 @@
       - t-AVPList--fixedLabelLarge
 
   - # ====== Template Option: Fixed - Medium =====================
-    id: 14027893372457811
+    id: 28219150405134017
     identification: 
       name: Fixed - Medium
       identifier: FIXED_MEDIUM
@@ -2050,7 +2050,7 @@
       - t-AVPList--fixedLabelMedium
 
   - # ====== Template Option: Fixed - Small ======================
-    id: 14028095912457811
+    id: 28219352945134017
     identification: 
       name: Fixed - Small
       identifier: FIXED_SMALL
@@ -2065,7 +2065,7 @@
       - t-AVPList--fixedLabelSmall
 
   - # ====== Template Option: Hide Empty Values ==================
-    id: 14028273922457812
+    id: 28219530955134018
     identification: 
       name: Hide Empty Values
       identifier: HIDE_EMPTY_VALUES
@@ -2082,7 +2082,7 @@
       help-text: 'This option will hide the null rows. Note: This only works in browsers that supports :has() pseudo-class.'
 
   - # ====== Template Option: Left Aligned Details ===============
-    id: 14028431705457812
+    id: 28219688738134018
     identification: 
       name: Left Aligned Details
       identifier: LEFT_ALIGNED_DETAILS
@@ -2097,7 +2097,7 @@
       - t-AVPList--leftAligned
 
   - # ====== Template Option: Right Aligned Details ==============
-    id: 14028632602457812
+    id: 28219889635134018
     identification: 
       name: Right Aligned Details
       identifier: RIGHT_ALIGNED_DETAILS
@@ -2112,7 +2112,7 @@
       - t-AVPList--rightAligned
 
   - # ====== Template Option: Variable - Large ===================
-    id: 14028880188457812
+    id: 28220137221134018
     identification: 
       name: Variable - Large
       identifier: VARIABLE_LARGE
@@ -2127,7 +2127,7 @@
       - t-AVPList--variableLabelLarge
 
   - # ====== Template Option: Variable - Medium ==================
-    id: 14029081002457812
+    id: 28220338035134018
     identification: 
       name: Variable - Medium
       identifier: VARIABLE_MEDIUM
@@ -2142,7 +2142,7 @@
       - t-AVPList--variableLabelMedium
 
   - # ====== Template Option: Variable - Small ===================
-    id: 14029244155457812
+    id: 28220501188134018
     identification: 
       name: Variable - Small
       identifier: VARIABLE_SMALL
@@ -2157,7 +2157,7 @@
       - t-AVPList--variableLabelSmall
 
 - # ====== Classic Report Template: Value Attribute Pairs - Row 
-  id: 14029377444457812
+  id: 28220634477134018
   identification: 
     name: Value Attribute Pairs - Row
     identifier: VALUE_ATTRIBUTE_PAIRS_ROW
@@ -2214,7 +2214,7 @@
 
   template-options: 
   - # ====== Template Option: Fixed - Large ======================
-    id: 14029625077457812
+    id: 28220882110134018
     identification: 
       name: Fixed - Large
       identifier: FIXED_LARGE
@@ -2229,7 +2229,7 @@
       - t-AVPList--fixedLabelLarge
 
   - # ====== Template Option: Fixed - Medium =====================
-    id: 14029889532457813
+    id: 28221146565134019
     identification: 
       name: Fixed - Medium
       identifier: FIXED_MEDIUM
@@ -2244,7 +2244,7 @@
       - t-AVPList--fixedLabelMedium
 
   - # ====== Template Option: Fixed - Small ======================
-    id: 14030083288457813
+    id: 28221340321134019
     identification: 
       name: Fixed - Small
       identifier: FIXED_SMALL
@@ -2259,7 +2259,7 @@
       - t-AVPList--fixedLabelSmall
 
   - # ====== Template Option: Left Aligned Details ===============
-    id: 14030207359457813
+    id: 28221464392134019
     identification: 
       name: Left Aligned Details
       identifier: LEFT_ALIGNED_DETAILS
@@ -2274,7 +2274,7 @@
       - t-AVPList--leftAligned
 
   - # ====== Template Option: Right Aligned Details ==============
-    id: 14030414523457813
+    id: 28221671556134019
     identification: 
       name: Right Aligned Details
       identifier: RIGHT_ALIGNED_DETAILS
@@ -2289,7 +2289,7 @@
       - t-AVPList--rightAligned
 
   - # ====== Template Option: Variable - Large ===================
-    id: 14030699602457813
+    id: 28221956635134019
     identification: 
       name: Variable - Large
       identifier: VARIABLE_LARGE
@@ -2304,7 +2304,7 @@
       - t-AVPList--variableLabelLarge
 
   - # ====== Template Option: Variable - Medium ==================
-    id: 14030865052457816
+    id: 28222122085134022
     identification: 
       name: Variable - Medium
       identifier: VARIABLE_MEDIUM
@@ -2319,7 +2319,7 @@
       - t-AVPList--variableLabelMedium
 
   - # ====== Template Option: Variable - Small ===================
-    id: 14031038788457816
+    id: 28222295821134022
     identification: 
       name: Variable - Small
       identifier: VARIABLE_SMALL

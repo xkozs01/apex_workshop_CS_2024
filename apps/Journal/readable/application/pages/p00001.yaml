@@ -38,7 +38,7 @@ server-cache:
 
 regions: 
 - # ====== Region: Journal =====================================
-  id: 14183525018458389
+  id: 28374782051134595
   identification: 
     name: Journal
     type: Static Content

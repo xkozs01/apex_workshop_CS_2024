@@ -1,5 +1,6 @@
 ---
 # ====== Application: Journal ================================
+id: 101
 identification: 
   name: Journal
   alias: JOURNAL
@@ -30,7 +31,7 @@ advanced:
 
 authentication: 
   public-user: APEX_PUBLIC_USER
-  authentication-scheme: Oracle APEX Accounts # 13882158484457636
+  authentication-scheme: OpenDoor # 288191768903339
 
 authorization: 
   source-for-role-or-group-schemes: Access Control User Role Assignments
@@ -94,11 +95,11 @@ navigation-menu:
   - t-TreeNav--styleA
   - js-navCollapsed--hidden
   list-position: Side
-  list: Navigation Menu # 13882933098457647
+  list: Navigation Menu # 28074190131133853
 
 navigation-bar: 
   implementation: List
-  list: Navigation Bar # 14172189330458286
+  list: Navigation Bar # 28363446363134492
   list-template: Navigation Bar
   template-options: 
   - '#DEFAULT#'
@@ -115,7 +116,7 @@ attributes:
 
 substitutions: 
 - # ====== Substitution: APP_NAME ==============================
-  id: 1
+  id: 14191257032676205
   identification: 
     name: APP_NAME
 
@@ -124,7 +125,7 @@ substitutions:
 
 component-settings: 
 - # ====== Component Setting: NATIVE_DISPLAY_SELECTOR ==========
-  id: 13877903776457625
+  id: 28069160809133831
   identification: 
     name: NATIVE_DISPLAY_SELECTOR
     type: Region
@@ -133,7 +134,7 @@ component-settings:
     version-number: 44526747268102
 
 - # ====== Component Setting: NATIVE_SELECT_MANY ===============
-  id: 13878274713457629
+  id: 28069531746133835
   identification: 
     name: NATIVE_SELECT_MANY
     type: Item
@@ -145,7 +146,7 @@ component-settings:
     version-number: 44526747268509
 
 - # ====== Component Setting: NATIVE_COLOR_PICKER ==============
-  id: 13878599897457629
+  id: 28069856930133835
   identification: 
     name: NATIVE_COLOR_PICKER
     type: Item
@@ -158,7 +159,7 @@ component-settings:
     version-number: 44526747268543
 
 - # ====== Component Setting: NATIVE_SINGLE_CHECKBOX ===========
-  id: 13878893520457629
+  id: 28070150553133835
   identification: 
     name: NATIVE_SINGLE_CHECKBOX
     type: Item
@@ -171,7 +172,7 @@ component-settings:
     version-number: 44526747268570
 
 - # ====== Component Setting: NATIVE_MAP_REGION ================
-  id: 13879191732457630
+  id: 28070448765133836
   identification: 
     name: NATIVE_MAP_REGION
     type: Region
@@ -180,7 +181,7 @@ component-settings:
     version-number: 44526747268599
 
 - # ====== Component Setting: NATIVE_STAR_RATING ===============
-  id: 13879448617457630
+  id: 28070705650133836
   identification: 
     name: NATIVE_STAR_RATING
     type: Item
@@ -193,7 +194,7 @@ component-settings:
     version-number: 44526747268627
 
 - # ====== Component Setting: NATIVE_ADFBC =====================
-  id: 13879766556457630
+  id: 28071023589133836
   identification: 
     name: NATIVE_ADFBC
     type: REST Data Source
@@ -202,7 +203,7 @@ component-settings:
     version-number: 44526747268653
 
 - # ====== Component Setting: NATIVE_IR ========================
-  id: 13880005176457631
+  id: 28071262209133837
   identification: 
     name: NATIVE_IR
     type: Region
@@ -211,7 +212,7 @@ component-settings:
     version-number: 44526747268683
 
 - # ====== Component Setting: NATIVE_YES_NO ====================
-  id: 13880350029457631
+  id: 28071607062133837
   identification: 
     name: NATIVE_YES_NO
     type: Item
@@ -225,7 +226,7 @@ component-settings:
     version-number: 44526747268723
 
 - # ====== Component Setting: NATIVE_OPEN_AI_ASSISTANT =========
-  id: 13880614616457631
+  id: 28071871649133837
   identification: 
     name: NATIVE_OPEN_AI_ASSISTANT
     type: Dynamic Action
@@ -234,7 +235,7 @@ component-settings:
     version-number: 44526747268759
 
 - # ====== Component Setting: NATIVE_GEOCODED_ADDRESS ==========
-  id: 13880905418457632
+  id: 28072162451133838
   identification: 
     name: NATIVE_GEOCODED_ADDRESS
     type: Item
@@ -250,7 +251,7 @@ component-settings:
     version-number: 44526747268787
 
 - # ====== Component Setting: NATIVE_DATE_PICKER_APEX ==========
-  id: 13881209613457632
+  id: 28072466646133838
   identification: 
     name: NATIVE_DATE_PICKER_APEX
     type: Item
@@ -265,7 +266,7 @@ component-settings:
     version-number: 44526747268838
 
 - # ====== Component Setting: NATIVE_GEOCODING =================
-  id: 13881582955457632
+  id: 28072839988133838
   identification: 
     name: NATIVE_GEOCODING
     type: Process

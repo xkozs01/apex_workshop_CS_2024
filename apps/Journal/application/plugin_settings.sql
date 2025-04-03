@@ -5,11 +5,11 @@ wwv_flow_imp.component_begin (
 ,p_release=>'24.1.7'
 ,p_default_workspace_id=>7476443331034147
 ,p_default_application_id=>101
-,p_default_id_offset=>0
+,p_default_id_offset=>14191257032676206
 ,p_default_owner=>'WKSP_CS2025'
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13877903776457625)
+ p_id=>wwv_flow_imp.id(28069160809133831)
 ,p_plugin_type=>'REGION TYPE'
 ,p_plugin=>'NATIVE_DISPLAY_SELECTOR'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -17,14 +17,14 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268102
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13878274713457629)
+ p_id=>wwv_flow_imp.id(28069531746133835)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_SELECT_MANY'
 ,p_attribute_01=>'separated'
 ,p_version_scn=>44526747268509
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13878599897457629)
+ p_id=>wwv_flow_imp.id(28069856930133835)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_COLOR_PICKER'
 ,p_attribute_01=>'FULL'
@@ -32,7 +32,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268543
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13878893520457629)
+ p_id=>wwv_flow_imp.id(28070150553133835)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_SINGLE_CHECKBOX'
 ,p_attribute_01=>'Y'
@@ -40,7 +40,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268570
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13879191732457630)
+ p_id=>wwv_flow_imp.id(28070448765133836)
 ,p_plugin_type=>'REGION TYPE'
 ,p_plugin=>'NATIVE_MAP_REGION'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -48,7 +48,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268599
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13879448617457630)
+ p_id=>wwv_flow_imp.id(28070705650133836)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_STAR_RATING'
 ,p_attribute_01=>'fa-star'
@@ -56,13 +56,13 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268627
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13879766556457630)
+ p_id=>wwv_flow_imp.id(28071023589133836)
 ,p_plugin_type=>'WEB SOURCE TYPE'
 ,p_plugin=>'NATIVE_ADFBC'
 ,p_version_scn=>44526747268653
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13880005176457631)
+ p_id=>wwv_flow_imp.id(28071262209133837)
 ,p_plugin_type=>'REGION TYPE'
 ,p_plugin=>'NATIVE_IR'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -70,7 +70,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268683
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13880350029457631)
+ p_id=>wwv_flow_imp.id(28071607062133837)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_YES_NO'
 ,p_attribute_01=>'Y'
@@ -79,13 +79,13 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268723
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13880614616457631)
+ p_id=>wwv_flow_imp.id(28071871649133837)
 ,p_plugin_type=>'DYNAMIC ACTION'
 ,p_plugin=>'NATIVE_OPEN_AI_ASSISTANT'
 ,p_version_scn=>44526747268759
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13880905418457632)
+ p_id=>wwv_flow_imp.id(28072162451133838)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_GEOCODED_ADDRESS'
 ,p_attribute_01=>'RELAX_HOUSE_NUMBER'
@@ -96,7 +96,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268787
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13881209613457632)
+ p_id=>wwv_flow_imp.id(28072466646133838)
 ,p_plugin_type=>'ITEM TYPE'
 ,p_plugin=>'NATIVE_DATE_PICKER_APEX'
 ,p_attribute_01=>'MONTH-PICKER:YEAR-PICKER:TODAY-BUTTON'
@@ -106,7 +106,7 @@ wwv_flow_imp_shared.create_plugin_setting(
 ,p_version_scn=>44526747268838
 );
 wwv_flow_imp_shared.create_plugin_setting(
- p_id=>wwv_flow_imp.id(13881582955457632)
+ p_id=>wwv_flow_imp.id(28072839988133838)
 ,p_plugin_type=>'PROCESS TYPE'
 ,p_plugin=>'NATIVE_GEOCODING'
 ,p_attribute_01=>'RELAX_HOUSE_NUMBER'
